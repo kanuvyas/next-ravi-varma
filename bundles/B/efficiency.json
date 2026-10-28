@@ -1,0 +1,10 @@
+{
+ "trainable_params": 3188736,
+ "pct_of_unet": 0.371,
+ "file_MB": 12.8,
+ "gpu": "?",
+ "peak_vram_gb": null,
+ "s_per_optimizer_step": null,
+ "wall_clock_min": null,
+ "precision": "fp16 + gradient checkpointing"
+}
