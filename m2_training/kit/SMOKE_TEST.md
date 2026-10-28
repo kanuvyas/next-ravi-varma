@@ -1,0 +1,5 @@
+- [x] Runs to step 50 without running out of memory.
+- [x] Peak VRAM: ~9-11 GB (Fits on T4).
+- [x] `checkpoint-25` shows `pytorch_lora_weights.safetensors`.
+- [x] Validation images show in TensorBoard.
+- [x] Resume test works.

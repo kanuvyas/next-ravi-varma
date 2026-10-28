@@ -1,0 +1,6 @@
+{
+ "tie_band": 0.0295,
+ "mem_flag_dino_p95": 0.85,
+ "max_style_bleed": 0.059,
+ "max_holdout_loss_rise": 0.01
+}

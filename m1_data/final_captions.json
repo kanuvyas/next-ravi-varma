@@ -1,0 +1,1616 @@
+{
+  "varma_ladies_moonlight_a01.png": {
+    "training_caption": "<ravivarma_style>, two women on a palace terrace at dusk, one standing in a deep blue sari with gold border, hand on hip, holding a peacock-feather fan and looking down at the other, who sits by a stone balustrade in a white sari with gold border, resting her head on her hand and gazing upward wistfully, scattered flower petals and a plate of flowers nearby, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Damayanti"
+      ],
+      "scene": "Princess Damayanti and a maid in the moonlight",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_arjuna_subhadra_b03.png": {
+    "training_caption": "<ravivarma_style>, a man and a woman standing together in a palace setting, he in warrior attire and she in a red saree with gold jewelry, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Arjuna",
+        "Subhadra"
+      ],
+      "scene": "Arjuna and Subhadra together after their marriage",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_lakshmi_gajalakshmi_baroda_b02.png": {
+    "training_caption": "<ravivarma_style>, a four-armed goddess standing frontally on a large red lotus, in a red sari with a broad gold border and a tall jeweled crown, long black hair falling to her side, two upper hands holding red lotus flowers and two lower hands open and lowered in a giving gesture, two white elephants at either side in a lotus-filled lake raising their trunks with lotus blossoms, distant hills and a pale cloudy sky, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Lakshmi"
+      ],
+      "scene": "Goddess Lakshmi (Gajalakshmi) standing on a lotus, flanked by two elephants offering lotus flowers",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_keechaka_sairandhri_b05.png": {
+    "training_caption": "<ravivarma_style>, a smiling man with a curled mustache and a jeweled turban with a blue plume, in a red and gold embroidered tunic with a sword at his waist, stepping forward with both hands extended toward a frightened woman in a dark sari who is half hidden behind a heavy gold-orange velvet curtain at a doorway, her hand raised in refusal, a spilled pot and a tray on a patterned carpet, warm light from the doorway, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Keechaka",
+        "Sairandhri(Draupadi)"
+      ],
+      "scene": "Keechaka advancing on Sairandhri (Draupadi in disguise) at the court of Virata, who recoils behind a curtain",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_radha_moonlight_b01.png": {
+    "training_caption": "<ravivarma_style>, a woman seated alone on a rock beside a moonlit lake at night, in a plum-purple saree with gold border and gold jewelry, pink flower in her hair, a plate of fruit and flowers beside her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Radha"
+      ],
+      "scene": "Radha waiting for Krishna by the moonlit lake",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_draupadi_humiliated_b08.png": {
+    "training_caption": "<ravivarma_style>,a crowned king seated on a green and gold throne with his head resting on his hand, dressed in a maroon embroidered coat with gold trim, two women standing behind him, two men in white turbans beside and below him, one holding a sword, on a pink stepped dais with red drapery behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Virata"
+      ],
+      "scene": "Virata's durbar",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_sairandhri_b10.png": {
+    "training_caption": "<ravivarma_style>, a woman in a dark blue saree with a red border descending stone steps, covering her face with a cloth as if weeping, holding a silver tray with a golden lidded vessel, a bearded guard in a pink turban and orange coat standing at the right with a tall spear and a round shield, glancing at her, a carved stone elephant relief on the wall behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Sairandhri(Draupadi)"
+      ],
+      "scene": "Sairandhri (Draupadi) standing on steps, going to the court of Keechaka carrying a jar of wine.",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_reclining_woman_b11.png": {
+    "training_caption": "<ravivarma_style>,  a young woman reclining on a blue silk cushion on a patterned divan, her head resting on her hand, in a dark green blouse and a white saree with gold border, gold coin necklaces, red bangles and flowers in her hair bun, an open book beside her, a woman attendant standing behind her holding a palm-leaf fan, a green curtain behind, a stringed instrument partly visible at the lower left, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Nayar lady"
+      ],
+      "scene": "A Reclining Nayar lady on a velvet couch with a book open in front of her",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_reverie_b12.png": {
+    "training_caption": "<ravivarma_style>, a young woman standing in a thoughtful pose, one finger raised to her chin and her gaze turned upward, in a white saree with gold and black borders draped over her arm, red earrings, a nose ring, a beaded necklace, black bangles and a flower in her hair, a dark red curtain and a stone pillar behind her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "A lady daydreaming and in a state of idle and pleasant contemplatio",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_there_comes_papa_b14.png": {
+    "training_caption": "<ravivarma_style>, a young woman standing in a white saree with gold border, holding a small child on her hip, her gaze lowered and one hand raised holding a small object, the child in gold anklets, bangles and a beaded necklace looking toward the viewer, flowers in her hair bun, a fluffy dog sitting at the lower left, a red draped cloth over a chair at the right, a dark wooden wall behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Mahaprabha Thampuratti of Mavelikkara",
+        "Marthanda Varma"
+      ],
+      "scene": "Woman holding a child with a pet dog beside her",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_rani_lakshmi_bayi_travancore_b13.png": {
+    "training_caption": "<ravivarma_style>, a woman standing in a red saree with gold floral motifs and a broad gold border, a gold sash at the waist, a blue blouse with an embroidered cuff, pearl necklaces and a pale green bow with a medal pinned at the shoulder, flowers in her hair, rings and stacked bangles, one hand resting on a red book on a marble-topped gilded table with a bowl of flowers and books, a marble column at the left with a palm-tree landscape behind it, a red velvet curtain at the right, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Rani Bharani Thirunal Lakshmi Bayi "
+      ],
+      "scene": "Formal portrait of a noblewoman in ceremonial dress with a decoration at her shoulder",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_thara_varini_b15.png": {
+    "training_caption": "<ravivarma_style>, a young woman in left profile with her dark hair drawn back into a low bun with a yellow and orange flower, in a red saree with a gold-patterned border draped over her shoulder, an ornate jeweled ear ornament and drop earring, a nose ring, a red jeweled choker with coin necklaces, plain pale mottled background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Profile portrait of a Tamil lady",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_draupadi_pandavas_b07.png": {
+    "training_caption": "<ravivarma_style>, a crowned man with a mustache seated on the steps of a canopied throne beside a woman in a black saree with gold spots and a red blouse, two crowned men standing behind them holding staffs, two crowned men kneeling in the lower corners, a spiked mace lying on the patterned green carpet, a red arched throne back with a striped canopy, a flat teal background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Arjuna",
+        "Draupadi",
+        "Bhima",
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "scene": " The Pandava brothers\u2014Yudhishthira (centre), Bhima (bottom left), Arjuna (bottom right), Nakula and Sahadeva (both standing beside the throne)\u2014with their common consort, Draupadi.",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_yashoda_krishna_b17.png": {
+    "training_caption": "<ravivarma_style>, a young woman seated on a low red stool beside a white cow, milking it with one hand and turning to look back over her shoulder, in a green blouse and a blue saree with a gold border, gold jewelry and flowers in her hair, a small child in a jeweled crown with a peacock feather, gold armlet, waist chain and anklets clinging to her back and holding a golden cup, a brass pot on the ground and another in the foreground, dark plain background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Yashoda",
+        "Krishna"
+      ],
+      "scene": "Yashoda milking a cow with the child Krishna holding a cup beside her",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_begums_bath_b21.png": {
+    "training_caption": "<ravivarma_style>, a young woman with long dark hair standing at the center in a cream long coat with gold floral embroidery and a red and dark blue cloak with a broad gold border, layered pearl necklaces, a woman in a gold headscarf holding a green striped shawl at her left, a veiled attendant partly visible behind her, a woman in a magenta veil at the right holding a silver hookah and a cup of flowers, a hexagonal wooden table inlaid with star motifs, a palace chamber with arched doorway and floral-patterned wall panels, stone steps in the foreground, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "A noblewoman in court dress attended by three women near the bathing area of a palace interior",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_ram_laxman_b19.png": {
+    "training_caption": "<ravivarma_style>, two crowned men and a bearded sage seated in a forest, a woman bowing with folded hands, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Rama",
+        "Lakshmana"
+      ],
+      "scene": "Rama frees Ahalya from her curse, Lakshmana and a sage beside him, Ahalya bowing at his feet",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_shivaji_maharaj_b23.png": {
+    "training_caption": "<ravivarma_style>, a mustached man in white robes and a white plumed turban riding a black horse with a drawn sword, three riders in red turbans with spears and a sword behind him, a hill fort and dry landscape in the background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Shivaji Maharaj"
+      ],
+      "scene": "Shivaji Maharaj riding at the head of his horsemen, a hill fort behind",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_rai_pannalal_mehta_b20.png": {
+    "training_caption": "<ravivarma_style>, an elderly man with a full white beard seated in a green armchair, in a white turban with a jeweled ornament, a white robe with a sash, an emerald necklace and a medal, a red curtain behind him, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Rai Pannalal Mehta"
+      ],
+      "scene": "Formal portrait of Rai Pannalal Mehta seated in an armchair",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_malabar_beauty_b22.png": {
+    "training_caption": "<ravivarma_style>, a young woman resting her cheek on her hand, in a loose white shawl, a red bead necklace with a gold pendant chain, flowers in her upturned hair bun, plain pale background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Malabar Beauty, a young woman in a pensive pose",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_bharani_parvathi_bayi_b18.png": {
+    "training_caption": "<ravivarma_style>, a woman seated in a carved wooden armchair with pink upholstery, in a white cloth with a gold border wrapped at the chest, heavy gold necklaces, a large gold ear ornament, rings and gold bangles, dark grey background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        " Bharani Thirunal Rani Parvathi Bayi"
+      ],
+      "scene": "Formal portrait of Bharani Thirunal RaniParvathi Bayi seated in an armchair ",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_shanmukha_subramanyaswami_b25.png": {
+    "training_caption": "<ravivarma_style>, a multi-faced, twelve-armed figure in a jeweled crown holding weapons and a lotus, standing in front of a fully fanned peacock, a woman in a red saree on either side, a cobra at the lower right, a green meadow and pale sky behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Shanmukha Subramanya",
+        "Valli",
+        "Devasena"
+      ],
+      "scene": "Shanmukha Subramanya with his peacock and two consorts beside him",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_lady_swarbat_b24.png": {
+    "training_caption": "<ravivarma_style>, a young woman holding a large round-bodied stringed instrument, in a dark blue blouse with gold trim and a yellow-gold saree, gold necklaces and jhumka earrings, dark background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Lady playing a swarbat (stringed instrument) ",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_kurma_avatar_b27.png": {
+    "training_caption": "<ravivarma_style>, a four-armed figure in a jeweled crown seated on a tortoise in the sea, holding a mace, a disc, a conch and a pink lotus, a rose garland across the chest, a sunset sky behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Vishnu (Kurma)"
+      ],
+      "scene": "Vishnu in his Kurma (tortoise) avatar rising from the ocean",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_sankaracharya_b28.png": {
+    "training_caption": "<ravivarma_style>, a man in a red head cloth seated cross-legged, black and red bead necklaces, ash stripes on his arms, one hand raised in a teaching gesture, a book in his lap and a staff at his side, green foliage behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Adi Shankaracharya"
+      ],
+      "scene": "Adi Shankaracharya seated in a teaching pose",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_village_belle_b26.png": {
+    "training_caption": "<ravivarma_style>, a young woman in a red veil with a floral border and a yellow blouse, one arm raised to balance a pot on her head, a brass jug on her hip, plain pale background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Village belle carrying water pots on her head and hip",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_mother_child_b29.png": {
+    "training_caption": "<ravivarma_style>, two women in an oval frame holding a baby wrapped in a checkered cloth, one with her head bent toward the child and the other looking on from behind, dark background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "A girl adoring her sister, who is adoring her child",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_kalki_a45.png": {
+    "training_caption": "<ravivarma_style>, a mustached man in golden armor with several raised arms riding a rearing white horse with red trappings, over water, hazy sky behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Kalki"
+      ],
+      "scene": "Kalki, the tenth avatar of Vishnu, on his white horse",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_lady_with_fruits_a48.png": {
+    "training_caption": "<ravivarma_style>, a young woman in a white wrap with a red bead necklace, gold ear ornaments and a nose stud, holding a heap of orange fruit, a woven basket behind her, dark brown background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Lady holding a tray of fruits",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_vishwamitra_a47.png": {
+    "training_caption": "<ravivarma_style>, a bearded man with a topknot sitting cross-legged on a stone platform, in pink robes, moving a string of dark prayer beads, a clay pot and a hanging animal skin beside him, a stone wall behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Vishwamitra"
+      ],
+      "scene": "The sage Vishwamitra seated in meditation with prayer beads",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_historic_meeting_a49.png": {
+    "training_caption": "<ravivarma_style>, a thatched pavilion decorated with flags and banana plants beside a waterway, palm trees behind, a green and blue boat at the left, a crowd of men in turbans and men in dark European coats gathered at the red-carpeted entrance, a stormy sky, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Depiction of the Duke of Buckingham being greeted by Visakham Thirunal, with Ayilyam Thirunal of Travancore looking on, during Buckingham's visit to Trivandrum",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_gypsies_a55.png": {
+    "training_caption": "<ravivarma_style>, a woman in a red saree seated holding a sleeping baby and a tall stringed instrument, a girl crouching below her and a thin boy seated at the right, a cooking pot and a bundle beside them, a stone wall behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "A family of gypsies resting by a stone wall ",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_dattatreya_a53.png": {
+    "training_caption": "<ravivarma_style>, a standing man with three faces and six arms holding a trident, a lotus, a conch and a water pot, a cow and four dogs around him, a lake with pink lotuses and trees behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Dattatreya"
+      ],
+      "scene": "Dattatreya with the cow and four dogs by a lake",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_kadambari_sitar_a51.png": {
+    "training_caption": "<ravivarma_style>, a young woman in a blue blouse and a pink saree with a gold border seated on a curved stone ledge, playing a large sitar, a yellow cushion under her, a flower in her hair, a peacock-feather fan at the lower left, an arched palace terrace and garden behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Kadambari"
+      ],
+      "scene": "Kadambari playing the sitar on a palace terrace",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_miser_a57.png": {
+    "training_caption": "<ravivarma_style>, an old man with a long white beard and a patterned turban, in a dark red coat, seated at a wooden table with an open drawer and holding a fold of paper, a red curtain behind him, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Portrait of an old miser at his table ",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_lady_garland_a58.png": {
+    "training_caption": "<ravivarma_style>, a young woman with a long braid seated at a table, threading a garland of white flowers, in a white wrap with a striped border and beaded necklaces, a silver goblet and a plate of pink petals beside her, a red curtain behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Lady stringing a garland of flowers",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_bheeshma_oath_a50.png": {
+    "training_caption": "<ravivarma_style>, a long-haired man in a white tunic and orange sash standing with one arm raised to the sky, a bare-chested man in a red cap and loincloth holding a red cloth in front of him, a man in a white turban behind them, a woman and two children watching from beside a thatched hut, a black rooster and a heap of fish in the foreground, a river with a distant boat behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Bhishma"
+      ],
+      "scene": "Bhishma's vows to give up the throne and remain celibate, before a fisher family by the river",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_contemplation_a67.png": {
+    "training_caption": "<ravivarma_style>, a young woman in a white saree with long dark hair reclining in a chair with her head tilted back, a hand mirror in her lap, a silver goblet and a plate of flower petals on a small table beside her, a window with green and orange drapes looking out on a domed building, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "A woman in contemplation by a window ",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_draupadi_simhika_a61.png": {
+    "training_caption": "<ravivarma_style>, two women standing in a forest, one in a dark blue sari with a red blouse and a flower in her hair pointing away with her arm around the other, who wears a red sari and holds her clasped hands to her chest with a frightened look, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Draupadi"
+      ],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_court_of_dushyant_a29.png": {
+    "training_caption": "<ravivarma_style>, a king in white and a turban standing on carpeted palace steps beside a woman in a purple sari with bowed head, a man in a pink shawl gesturing toward them, an old man in orange at right, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Dushyanta",
+        "Shakuntala"
+      ],
+      "scene": "Shakuntala brought before King Dushyanta in his court",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_bride_a60.png": {
+    "training_caption": "<ravivarma_style>, four women in a room, the central one in a cream sari with her head covered being adorned with a necklace by another woman, a woman at left holding up a bangle, a woman at right holding a flower garland, a tray with vessels and cloth in front, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_murugan_a62.png": {
+    "training_caption": "<ravivarma_style>, a crowned figure with many faces and many arms holding a sword, a trident and a bow, standing on a blue peacock with a fully fanned tail, flanked by two women in crimson saris, a cobra at lower right, sea behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_disappointing_news_a34.png": {
+    "training_caption": "<ravivarma_style>, a woman reclining on a bed under a white mosquito net, resting her cheek on her hand and gazing upward, in a purple sari with a gold border and pearl necklaces, a folded letter in her hand and an envelope beside her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_damayanti_a20.png": {
+    "training_caption": "<ravivarma_style>, a woman in a red sari with a gold border leaning on a stone pedestal with her hand at her cheek, looking at a white swan perched on lotus leaves, an ornate column behind her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Damayanti",
+        "Hamsa"
+      ],
+      "scene": "Damayanti with the swan who carries word of Nala",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_damayanti_a19.png": {
+    "training_caption": "<ravivarma_style>, a woman with long loose hair seated on a rock beside a tree in a misty forest, one hand raised to her head and tearful eyes looking upward, in a draped yellow cloth over a red blouse, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Damayanti"
+      ],
+      "scene": "Damayanti alone and distraught in the forest after Nala abandons her",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_chitralekha_a31.png": {
+    "training_caption": "<ravivarma_style>, two women in a bedroom, one in a yellow sari seated on a bed with a hand on her chest, the other in a red blouse kneeling at the bedside painting a portrait on a canvas, red curtain and carved wooden chair behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_woman_with_fan_a44.png": {
+    "training_caption": "<ravivarma_style>, a woman in a pale lavender-grey sari with long loose black hair leaning on a balcony wall, one hand on her hip and the other holding a round red fan, gold bangles on her wrists, a sunset landscape behind her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_markandeya_a65.png": {
+    "training_caption": "<ravivarma_style>, a four-armed man with a snake around his neck holding a trident and an axe behind a black stone pillar, a boy in a pale cloth clinging to the pillar with his eyes closed, a blue-skinned figure in a red cloth seated on a buffalo at right reaching upward, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_gajalakshmi_a09.png": {
+    "training_caption": "<ravivarma_style>, a four-armed woman with a golden halo and crown in a pink sari standing on a pink lotus holding lotus flowers, flanked by two white elephants with raised trunks, a crowned woman playing a veena seated at lower left, a peacock at lower right, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_shakuntala_a04.png": {
+    "training_caption": "<ravivarma_style>, a woman in a pale yellow-orange draped sari seated on a large rock with her hands clasped in her lap, looking to the side, a palm tree behind her, a small distant figure at left, dry hills behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Shakuntala"
+      ],
+      "scene": "Shakuntala seated alone on a rock",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_yashoda_krishna_a68.png": {
+    "training_caption": "<ravivarma_style>, a woman with a red bindi in a brown-mauve shawl holding a small jewelled child with a peacock feather on his head against her hip, one hand raised, hills behind and cattle at lower right, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_krishna_envoy_a46.png": {
+    "training_caption": "<ravivarma_style>, a man in a blue coat and plumed turban standing in the centre of a pillared royal hall with a sword at his side, pointing toward a blue-skinned crowned figure seated at right, elderly bearded men in turbans seated around them, courtiers watching from behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Krishna",
+        "Duryodhana"
+      ],
+      "scene": "Krishna's peace mission in the Kaurava court",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_lady_moonlight_a35.png": {
+    "training_caption": "<ravivarma_style>, a woman with long loose hair in an orange-brown sari and blue blouse seated on a rock at the edge of a moonlit lake, one hand at her collar, layered pearl necklaces, dark trees and cloudy night sky behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_padmini_a25.png": {
+    "training_caption": "<ravivarma_style>, a woman in a flowing pink sari with a billowing pink veil overhead, standing among red lotus flowers in a pond with a blue bangle on her wrist, dense green trees behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_ganga_a27.png": {
+    "training_caption": "<ravivarma_style>, a woman with long flowing black hair in an orange sari decorated with sequin-like dots, cradling an infant in her arms as she glides over a wide river, layered necklaces and an armlet, trees at left and a yellow-lit horizon behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_draupadi_humiliated_a39.png": {
+    "training_caption": "<ravivarma_style>, a woman in a red sari lying face down on a patterned carpet in a pillared court, a bearded man in a pink robe and turban standing on the steps at right with his arm extended toward her, a seated king and watching courtiers in red and white around them, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Draupadi"
+      ],
+      "scene": "Draupadi prostrate in the Kaurava court",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_victory_meghanada_a26.png": {
+    "training_caption": "<ravivarma_style>, a palace courtyard scene with warriors in gold and steel armour, one holding a bow in the foreground, a crowned man standing at centre under a large parasol, an attendant with a feather fan, and a distressed woman in a pink cloth held by a dark-skinned man in a red cap at left, a small chest on the floor, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Meghanada"
+      ],
+      "scene": "Meghanada's victory, with a captive woman brought before him",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_krishna_gopis_a38.png": {
+    "training_caption": "<ravivarma_style>, a group of women with long black hair bathing in a river beside stone steps, arms raised toward a blue-skinned figure playing a flute on a branch of a large tree above them, bundles of coloured cloth hanging from the branches, green trees and a bright horizon behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_kali_a06.png": {
+    "training_caption": "<ravivarma_style>, a blue-skinned four-armed goddess with fierce eyes and a red tongue, wearing a garland of heads and a skirt of arms, holding a head and a bowl, standing on a reclining pale figure with a cobra, golden glow behind her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_maharashtrian_lady_a33.png": {
+    "training_caption": "<ravivarma_style>, a smiling woman in a red sari with gold dots and a gold border, a nose ring, red earrings and a flower in her hair, holding a metal tray of oranges and green grapes at shoulder height, green bangles on her wrist, green foliage behind her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_malabar_beauty_a66.png": {
+    "training_caption": "<ravivarma_style>, a half-length portrait of a woman with her dark hair in a topknot with a pink flower, a nose ring, large gold earrings, a gold choker with a jewelled pendant and a long chain, one hand holding a white cloth at her chest, a dark brown background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_maharani_travancore_a02.png": {
+    "training_caption": "<ravivarma_style>, a woman with her hair in a bun with a gold ornament, a nose ring and pearl necklaces, wearing a white bandeau and a red and gold shawl over her shoulders, holding a metal tray with a large closed book, a worn grey canvas background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_malayali_lady_a42.png": {
+    "training_caption": "<ravivarma_style>, an oval portrait of a woman in profile looking to the right, with long loose dark hair, a red beaded necklace and bangles, one hand holding a sheer white cloth at her chest, a mottled dark blue-grey background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_lakshmi_a08.png": {
+    "training_caption": "<ravivarma_style>, a four-armed woman in a pink sari with a gold border and a tall crown standing on a large pink lotus in a pond, holding lotus flowers in two hands, a white elephant with a flower garland on its trunk at right, white swans, a waterfall and green forest behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_mohini_a21.png": {
+    "training_caption": "<ravivarma_style>, a woman in a sheer white sari with a gold border and long black hair swinging on a rope swing hung from a tree, both arms raised holding the ropes, her bare foot extended, rocky hills and a hazy sunset sky behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_mandodari_a32.png": {
+    "training_caption": "<ravivarma_style>, a woman in a red sari with a flower in her hair standing on temple steps and offering food from a tray, a ragged seated man reaching up with cupped hands, a carved stone pillar, a temple tower behind and a stone bull statue at right, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_rama_a36.png": {
+    "training_caption": "<ravivarma_style>, a bare-chested man in a pale dhoti with his hair in a topknot standing on a rock at the edge of a stormy sea, holding a long red bow with an arrow, a crowned figure with an outstretched hand and two women rising from the waves at right, lightning in a dark sky, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Rama",
+        "Varuna"
+      ],
+      "scene": "Rama threatening the ocean with his bow while the sea god appears",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_portrait_lady_a03.png": {
+    "training_caption": "<ravivarma_style>, a woman seated in a red-cushioned chair with her hands clasped in her lap, in a dark blue sari with gold polka dots and a wide gold border, striped blouse, nose ring, pearl necklace and gold bangles, a stone column behind her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_ram_a16.png": {
+    "training_caption": "<ravivarma_style>, a young crowned bare-chested man in a purple and gold dhoti raising a long black bow overhead and looking up, a bearded man in an orange shawl holding a sword at right, an old king in white with folded hands under an umbrella in a palace doorway, women watching, stone steps in front, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Rama",
+        "Janaka",
+        "Vishwamitra"
+      ],
+      "scene": "Rama lifting the great bow at Sita's swayamvara",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_rani_kurupam_a40.png": {
+    "training_caption": "<ravivarma_style>, a woman in a pale blue sari with silver-embroidered borders and blouse, layered pearl necklaces, a jewelled headpiece and stacked bangles, resting her cheek on her hand and leaning on the arm of a red cushioned chair, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_ramapanchayan_a13.png": {
+    "training_caption": "<ravivarma_style>, a blue-skinned crowned figure seated on a lotus throne under a red umbrella with a woman in a red sari seated beside him, three crowned men standing around them, one holding a bow, a monkey-faced figure kneeling at left with folded hands, a temple and hills behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Bharata",
+        "Shatrughna",
+        "Hanuman"
+      ],
+      "scene": "Rama enthroned with Sita, his brothers and Hanuman",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_ravan_sita_jatayu_a12.png": {
+    "training_caption": "<ravivarma_style>, a dark-skinned crowned man with a moustache raising a sword in one hand and gripping a woman in a yellow and maroon sari with the other while she covers her face, a large wounded vulture with spread wings attacking him, feathers falling through the sky, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Ravana",
+        "Sita",
+        "Jatayu"
+      ],
+      "scene": "Jatayu attacking Ravana as he abducts Sita",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_sankaracharya_a63.png": {
+    "training_caption": "<ravivarma_style>, a bare-chested man in a red head covering and red cloth seated cross-legged on a tiger skin with one hand raised in teaching, wearing black bead necklaces, four disciples in cream shawls seated around him, a hut, lake and mountains behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_shakuntala_a05.png": {
+    "training_caption": "<ravivarma_style>, three women in a forest clearing, one in an orange sari with a flower garland lifting her bent foot and looking back over her shoulder, two companions beside her, a basket of flowers on the ground, a hooded elderly figure with a staff walking away at left, mountains behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Shakuntala"
+      ],
+      "scene": "Shakuntala pretending a thorn has caught her foot so she can look back at Dushyanta",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_shakuntala_a10.png": {
+    "training_caption": "<ravivarma_style>, two women seated by a lake, one in a pink sari with a flower-garland necklace and long hair looking upward, the other in dark cloth leaning close and holding a leaf, a spotted fawn at lower right, mountains behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Shakuntala"
+      ],
+      "scene": "Shakuntala writing a love letter on a leaf, with a friend beside her",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_shakuntala_sakhis_a18.png": {
+    "training_caption": "<ravivarma_style>, three women walking through a forest, standing next to a deer, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Shakuntala"
+      ],
+      "scene": "Shakuntala with her friends in the forest",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_saraswati_a07.png": {
+    "training_caption": "<ravivarma_style>, a woman in a white sari seated, playing the veena, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Saraswati"
+      ],
+      "scene": "Saraswati, goddess of learning, wisdom, and music, playing the veena",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_shakuntala_a11.png": {
+    "training_caption": "<ravivarma_style>, three women in the forest hermitage setting, one writing a letter, with a deer in the background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Shakuntala"
+      ],
+      "scene": "Shakuntala with her friends in the forest, writing a letter to Dushyanta",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_sita_a14.png": {
+    "training_caption": "<ravivarma_style>, a group of women sitting around another woman who is in despair, near an ashoka grove, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Sita"
+      ],
+      "scene": "Sita laments at the Ashoka Vatika after being kidnapped, and the Rakshasis in Lanka try talking to her",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_sita_bhumipravesh_a15.png": {
+    "training_caption": "<ravivarma_style>, a man standing in grief as a woman is enveloped by a goddess rising from the ground, onlookers including two children and a sage gathered in a palace courtyard, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Rama",
+        "Sita",
+        "Bhoomi Devi",
+        "Luv",
+        "Kush"
+      ],
+      "scene": "Sita, unable to bear further humiliation after being abandoned by Rama, seeks shelter with her mother, Bhoomi Devi, and disappears into the ground, while Rama, her children, Luv and Kush, and other onlookers witness this ",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_tilottama_a23.png": {
+    "training_caption": "<ravivarma_style>, a woman partially draped in a red sari, floating through a cloud-filled sky while reaching for a red ball/orb, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Tilottama"
+      ],
+      "scene": "Tilottama, a celestial apsara, in a standalone portrayal",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_vasantika_a24.png": {
+    "training_caption": "<ravivarma_style>, a woman in a pink sari standing by a river in a forest, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Vasantika"
+      ],
+      "scene": "Portrait of the spring season personified as a forest nymph",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_varini_a22.png": {
+    "training_caption": "<ravivarma_style>, a woman in a pink sari standing next to a pond in a forest, near a swan, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Varini"
+      ],
+      "scene": "Portrait of a forest nymph named Varini",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_swarbat_player_jewellery_a43.png": {
+    "training_caption": "<ravivarma_style>, a closeup of a woman playing the Swarbat, wearing heavy jewellery: earrings, nose ring, necklaces, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "A closeup portrait of a Swarbat playing lady, bedecked in jewellery",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_judith_a56.png": {
+    "training_caption": "<ravivarma_style>, a partially draped woman holding a sword, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Judith"
+      ],
+      "scene": "A portrait of Judith, a daring and beautiful Jewish widow, standing with a sword",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_kerala_varma_valiya_koil_tampuran_b31.png": {
+    "training_caption": "<ravivarma_style>, a portrait of a man wearing a turban and gold jewellery, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Kerala Varma Valiya Koil Tampuran"
+      ],
+      "scene": "Portrait of the Travancore royal consort and Malayalam scholar, Kerala Varma Valiya Koil Tampuran",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_sesha_narayana_d22.png": {
+    "training_caption": "<ravivarma_style>, a god with four arms, seated on a serpent throne, with two goddesses draped in red saris seated on either side of him, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Vishnu",
+        "Adisesha",
+        "Sridevi",
+        "Bhudevi"
+      ],
+      "scene": "Vishnu seated on Adisesha, with his two consorts beside him",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_ganapathi_riddhi_siddhi_d23.png": {
+    "training_caption": "<ravivarma_style>, an elephant-headed god seated on a throne with two women seated on his lap, while two women fan him, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Ganesha",
+        "Riddhi",
+        "Siddhi"
+      ],
+      "scene": "Ganesha enthroned with his consorts Riddhi and Siddhi",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_ambika_d24.png": {
+    "training_caption": "<ravivarma_style>, a goddess draped in a red sari with attendants around, fanning her, and playing music, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Ambika"
+      ],
+      "scene": "Mother Goddess depicted as Ambika, seated on a throne with four arms holding noose, goad, and a lotus",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_parsee_beauty_d25.png": {
+    "training_caption": "<ravivarma_style>, a woman wearing an orange sari, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Portrait of a Parsi woman",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_bharata_bhet_d26.png": {
+    "training_caption": "<ravivarma_style>, two men embracing in a forest, as a lady, monkey-headed man, and a kneeling man look on, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Rama",
+        "Bharata",
+        "Lakshmana",
+        "Hanuman",
+        "Sita"
+      ],
+      "scene": "Bharata receiving Rama at Nandigrama on his return from exile, carrying Rama's sandals and royal insignia",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_indira_d27.png": {
+    "training_caption": "<ravivarma_style>, a Marathi woman wearing a red sari, bedecked with traditional Maharashtrian jewellery, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Indira"
+      ],
+      "scene": "Portrait of a Marathi lady in a red saree wearing a traditional nose-ring and jewellery",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_malati_d28.png": {
+    "training_caption": "<ravivarma_style>, a Marathi woman in a red sari outside a temple, holdig a plate of items required for worship, with a statue of a bull in the background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Malati"
+      ],
+      "scene": "Portrait of a Marathi woman in a red sari on her way to a Shiva temple, with a statue of Nandi in the background",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_ravan_sita_d29.png": {
+    "training_caption": "<ravivarma_style>, a man in ascetic robes standing at the door of a hut, talking to a disinterested woman, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Ravana",
+        "Sita"
+      ],
+      "scene": "Ravana disguised as a hermit approaching Sita, who rebukes his advances",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_ganapathi_d30.png": {
+    "training_caption": "<ravivarma_style>, an elephant-headed god with four hands sitting on a throne, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Ganesha"
+      ],
+      "scene": "Ganapathi in the Kshipra-prasada-ganapathi form, pale red hue with three eyes, holding noose, goad, broken tusk, and a pomegranate",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_bharani_nal_raja_raja_varma_d31.png": {
+    "training_caption": "<ravivarma_style>, an old man in a red robe, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Raja Raja Varma"
+      ],
+      "scene": "Portrait of Raja Raja Varma, Rama varma's uncle and mentor ",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_radha_krishna_banyan_d32.png": {
+    "training_caption": "<ravivarma_style>, a blue-skinned man receiving a lotus from a woman, who has come to meet him with her friend, all three standing under a banyan tree by a river, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Krishna",
+        "Radha"
+      ],
+      "scene": "Radha approaching Krishna with a lotus and a companion under a Banyan tree",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_four_portrait_studies_d33.png": {
+    "training_caption": "<ravivarma_style>, four separate paintings of women in saris, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Four portraits of women in saris, wearing jewellery",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_krishna_phugdi_d35.png": {
+    "training_caption": "<ravivarma_style>, a blue-skinned man and a woman holding hands and dancing/playing with each other in a garden, while two other women dance along with them, with their arms locked above their heads, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Krishna",
+        "Radha"
+      ],
+      "scene": "Krishna and Radha play phugdi with each other",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_ahalya_indravalokan_d36.png": {
+    "training_caption": "<ravivarma_style>, a woman in a yellow sari holding a basket of flowers, while plucking more from a tree, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Ahalya"
+      ],
+      "scene": "Ahalya picking flowers in a garden while Indra approaches on his horse Uchchaisharavas",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_rukmangada_mohini_d37.png": {
+    "training_caption": "<ravivarma_style>, a grief-stricken ruler holds his sword over his son, caught between a fiercely defiant woman demanding the sacrifice and another woman collapsed in utter despair, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Rukmangada",
+        "Mohini"
+      ],
+      "scene": "King Rukmangada besotted by Mohini, who commands him to break his fast or behead his son Dharmangada",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_killing_of_kamsa_d40.png": {
+    "training_caption": "<ravivarma_style>, a man being attacked and killed by a blue-skinned child sitting on his chest, and another boy standing nearby, in a palace, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Krishna",
+        "Kamsa",
+        "Balarama"
+      ],
+      "scene": "Krishna slaying his tyrant uncle Kamsa",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_ramas_archery_training_d39.png": {
+    "training_caption": "<ravivarma_style>, two boys with bows and arrows learning archery with a sage, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Rama",
+        "Lakshmana",
+        "Vishwamitra"
+      ],
+      "scene": "Young Rama practicing archery under Vishwamitra's instruction, with Lakshmana behind him",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_khedda_camp_d41.png": {
+    "training_caption": "<ravivarma_style>, a camp with tents and a motor car set up near a field, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "the Khedda camp set up in Mysore for the Prince of Wales's visit",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_khedda_operations_night_d42.png": {
+    "training_caption": "<ravivarma_style>, a fire lit in a forest, while people herd elephants, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "night scene of a Khedda elephant-herding operation witnessed by the Prince of Wales and Maharaja Krishnaraja Wadiyar IV, fires lit to herd elephants",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_lady_from_north_india_d43.png": {
+    "training_caption": "<ravivarma_style>, a woman in a green sari draped over her head, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Portrait of a lady from North India, saree draped over her head, gazing at the viewer",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_ayilyam_thirunal_rama_varma_d44.png": {
+    "training_caption": "<ravivarma_style>, a man in a black outfit with a crown on his head, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Ayilyam Thirunal Rama Varma"
+      ],
+      "scene": "State portrait of His Highness Ayilyam Thirunal Rama Varma, ruler of Travancore",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_yuvaraj_kanterava_wadiyar_d45.png": {
+    "training_caption": "<ravivarma_style>, a man in a suit standing next to a dog and a potted plant, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Yuvaraj Kanterava Narasimharaja Wadiyar"
+      ],
+      "scene": "Portrait of Yuvaraj Kanterava Narasimharaja Wadiyar in western attire with Mysore Peta headwear and pet Saint Bernard dog ",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_prince_on_tricycle_d46.png": {
+    "training_caption": "<ravivarma_style>, a boy in a black suit and a cap riding a bicycle, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Martanda Varma"
+      ],
+      "scene": "Portrait of young Martanda Varma riding his tricycle",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_susheela_or_modesty_d47.png": {
+    "training_caption": "<ravivarma_style>, a woman in a white sari, holding her clothing, looking down and modest, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Portrait of a lady who appears modest and shy",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_moolam_thirunal_rama_varma_d48.png": {
+    "training_caption": "<ravivarma_style>, a man in a ceremonial palatial dress standing in an office, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Moolam Thirunal Rama Varma"
+      ],
+      "scene": "Portrait of Moolam Thirunal Rama Varma, Maharaja of Travancore",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_kerala_varma_valiya_koil_tampuran_fulllength_d49.png": {
+    "training_caption": "<ravivarma_style>, a man in a maroon robe standing in an office, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Kerala Varma Valiya Koil Tampuran"
+      ],
+      "scene": "Full-length portrait of Kerala Varma Valiya Koil Tampuran, Malayalam/Sanskrit scholar and consort of the Senior Rani of Travancore, who gave Raja Ravi Varma his first box of colours",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_khedda_operations_d50.png": {
+    "training_caption": "<ravivarma_style>, a large herd of dark elephants crowded inside a wooden stockade, men seated on the elephants' backs, spectators standing behind the fence, tall bamboo and golden foliage behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Elephants herded into a wooden enclosure during a khedda operation, watched by onlookers behind the fence",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_sita_abandoned_lamenting_d51.png": {
+    "training_caption": "<ravivarma_style>, a young woman in a golden-yellow saree and blue blouse seated on the forest floor, head resting on her hand, leaning against a tree, layered pearl necklaces and gold bangles, dark woodland behind her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Sita"
+      ],
+      "scene": "Sita, pregnant and abandoned in the forest near Valmiki's hermitage, lamenting",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_justice_muthuswamy_iyer_d53.png": {
+    "training_caption": "<ravivarma_style>, a seated man in a white and gold turban, tan jacket over a yellow waistcoat, white shawl with a red sash and medal, one arm resting on a round table and holding a book, dark red curtain behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Justice T. Muthuswamy Iyer"
+      ],
+      "scene": "Formal portrait of Justice Sir T. Muthuswamy Iyer, the first Indian judge of the Madras High Court",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_veena_nu_mrug_d52.png": {
+    "training_caption": "<ravivarma_style>, a young woman in a white saree and red blouse seated on a rock beside a lake with a stringed instrument at her feet and a small green bird beside her, a dark-skinned hunter in a leopard-skin wrap holding a bow and quiver standing in the foreground with his back turned, a bird flying overhead, trees and evening sky, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "A woman who plays the veena by a lake watched by a hunter with a bow, a bird standing in for the deer of the poem 'Veena nu Mrug'",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_rama_sita_lakshmana_sarayu_d54.png": {
+    "training_caption": "<ravivarma_style>, three people and a boatman in a wooden boat with a large brown sail on a river, a man with a topknot and a woman in a red saree seated together, a young man in a white dhoti standing at the stern with arms crossed, a boatman in a red turban rowing at the bow, riverbank trees behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "scene": "Rama, Sita and Lakshmana crossing the river Sarayu by boat as they leave Ayodhya for exile",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_bombay_singer_songstress_d55.png": {
+    "training_caption": "<ravivarma_style>, a woman standing in a dark sheer saree with a gold border, one hand raised to her head, a stringed instrument resting on a patterned carpet beside her, heavy dark curtain and patterned wall behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Portrait of a Bombay singer standing in a draped interior beside her stringed instrument",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_senior_rani_lakshmi_bayi_d56.png": {
+    "training_caption": "<ravivarma_style>, a bust portrait of a woman with black hair in a bun decorated with pink flowers, nose ring, drop earrings, pearl and gold necklaces, blue blouse with gold trim and a white silk shawl with a gold border, plain brown background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Senior Rani Lakshmi Bayi"
+      ],
+      "scene": "Portrait of Senior Rani Lakshmi Bayi of Travancore",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_shankar_version1_d57.png": {
+    "training_caption": "<ravivarma_style>, a mustached crowned man with four arms seated on a stone ledge with a woman in a red saree beside him and an elephant-headed young figure at his other side, two lions behind them and a reclining white bull in the foreground, snow-covered mountains in the background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Shiva",
+        "Parvati",
+        "Ganesha"
+      ],
+      "scene": "Shiva seated with Parvati and Ganesha, blessing Ganesha, with the bull Nandi and two lions",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_yogi_gopichandra_d58.png": {
+    "training_caption": "<ravivarma_style>, a man in a long white robe with bead necklaces and a rosary standing before four women in blue, white and gold, red, and yellow sarees at an arched palace doorway, one woman covering her face and wiping tears with a cloth, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Gopichandra"
+      ],
+      "scene": "Prince Gopichandra, now an ascetic in white robes, taking leave of the weeping women of his palace",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_narasimha_avatar_d60.png": {
+    "training_caption": "<ravivarma_style>, a fierce lion-headed figure with many arms and a tall crown tearing open a demon lying across his lap on a palace threshold under a large arch, a woman with long hair at the left and a crowned youth at the right looking on, a mace fallen on the floor, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Narasimha",
+        "Hiranyakashipu"
+      ],
+      "scene": "Narasimha, the man-lion avatar of Vishnu, killing the demon king Hiranyakashipu on the palace threshold",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_mahananda_d59.png": {
+    "training_caption": "<ravivarma_style>, a woman with her hair in a topknot with a gold ornament, coral necklace and a white dress with a striped shawl, seated on a cushioned couch on a marble terrace playing a veena, garden trees behind, a hand fan on the wall and a brass vase on the floor, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "A Malabar lady in white playing the veena on a terrace",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_lady_with_a_fruit_d62.png": {
+    "training_caption": "<ravivarma_style>, a woman glancing sideways with a slight smile, holding an orange in her raised hand, long black hair, drop earrings, nose ring, pearl necklace, gold bangles, yellow blouse and a red saree with a gold border, dark background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "Portrait of a young woman holding an orange",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_krishnaraja_wadiyar_iv_sisters_d64.png": {
+    "training_caption": "<ravivarma_style>, a girl in a pink silk saree with heavy gold necklaces and jasmine in her hair standing beside a wheeled carriage in which a small boy in an embroidered dark jacket sits, a toddler girl in a white jacket and green skirt standing in front, a palace tower and garden gateway behind, a toy horse on the ground, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Krishnaraja Wadiyar IV",
+        "Jayalakshmanni",
+        "Krishnarajammanni"
+      ],
+      "scene": "Portrait of the young Krishnaraja Wadiyar IV with his two sisters in a palace garden",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_hesitation_d61.png": {
+    "training_caption": "<ravivarma_style>, a young woman in a dark saree with a gold border and a red blouse holding a pink rose, standing beside a stone pillar, a man in a green turban and white coat watching her from behind the pillar with his head resting on his hand, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [],
+      "scene": "A courtship scene in which a woman hesitates over a rose while a man gazes at her",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_shakuntala_janm_d65.png": {
+    "training_caption": "<ravivarma_style>, a bearded ascetic in an orange loincloth raising one arm and turning away, a woman in a cream saree with a gold border holding a newborn infant, forest trees and a pond with swans behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Vishwamitra",
+        "Menaka",
+        "Shakuntala"
+      ],
+      "scene": "Vishwamitra refusing to acknowledge the infant Shakuntala as Menaka presents her",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_nizam_of_hyderabad_d67.png": {
+    "training_caption": "<ravivarma_style>, a full-length portrait of a man with a black mustache and beard in a yellow turban, grey jacket, waistcoat, tie and riding boots, leaning against a stone balustrade and holding a cane, a lake, palm trees and a sunset sky behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Mir Mehboob Ali Khan, Asaf Jah VI"
+      ],
+      "scene": "Portrait of Mir Mehboob Ali Khan, the sixth Nizam of Hyderabad, seated on a balustrade by a lake",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_maharana_fateh_singh_mewar_d68.png": {
+    "training_caption": "<ravivarma_style>, a seated man with a full black beard in a pink turban and a white robe, a dagger at his waist and a cane in his hand, sitting in a red upholstered armchair in front of a green curtain, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Maharana Fateh Singh of Mewar"
+      ],
+      "scene": "Portrait of Maharana Fateh Singh of Mewar seated in an armchair",
+      "source_collector": "member_d"
+    }
+  },
+  "varma_taradevi_c01.png": {
+    "training_caption": "<ravivarma_style>, a woman in a red saree and a crown-like headpiece playing a stringed instrument in an ornate carved boat under a fringed parasol, a second woman in a yellow saree seated at the far end of the boat, a calm lake, swans and a rocky shore behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Tara Devi"
+      ],
+      "scene": "Tara Devi playing a stringed instrument in a boat on a lake with a companion",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_mohini_ball_c03.png": {
+    "training_caption": "<ravivarma_style>, a woman in a purple saree and short blouse raising one arm toward a red ball in the sky, long black hair, layered pearl necklaces and gold bangles, standing on a grassy clearing in a forest with mountains and clouds behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Mohini"
+      ],
+      "scene": "Mohini playing with a ball in a forest, her saree slipping loose",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_urvashi_a17.png": {
+    "training_caption": "<ravivarma_style>, a woman in a cream saree with long dark hair and pearl necklaces floating upward from a palace terrace, a bare-chested mustached man with bead necklaces reaching up and clasping the hem of her saree, a domed pavilion and clouds behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Urvashi",
+        "Pururavas"
+      ],
+      "scene": "Urvashi rising away into the sky as Pururavas clasps the hem of her saree",
+      "source_collector": "member_a"
+    }
+  },
+  "varma_krishna_kaliya_c05.png": {
+    "training_caption": "<ravivarma_style>, a small boy in an ornate crown, garland and gold jewelry balancing with arms outstretched on the raised heads of a coiled multi-headed serpent rising from a river, cows standing on the bank in the background, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Krishna",
+        "Kaliya"
+      ],
+      "scene": "Krishna dancing on the hoods of the serpent Kaliya in the river Yamuna",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_radha_c06.png": {
+    "training_caption": "<ravivarma_style>, two women outdoors beside a lake, one in a white saree with a gold border seated on a rock and gazing into the distance, the other in a maroon saree seated in the foreground with her hands clasped, temple buildings and trees behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Radha"
+      ],
+      "scene": "Radha anxiously waiting for Krishna beside a lake, with her companion",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_rama_pattabhishekham_c07.png": {
+    "training_caption": "<ravivarma_style>, a crowned man seated cross-legged on a throne under a large fringed parasol, wearing many necklaces, with a woman beside him and crowned attendants around him, a monkey-faced figure kneeling at his feet at the lower left and a bearded sage seated at the lower right, red banners and a green backdrop, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Rama",
+        "Sita",
+        "Hanuman",
+        "Vashishta"
+      ],
+      "scene": "The coronation of Rama at Ayodhya, with Sita, his brothers, Hanuman and the sage Vashishta attending",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_vamana_c10.png": {
+    "training_caption": "<ravivarma_style>, a young boy in a yellow dhoti with a red border holding a tall staff and placing one foot on the bowed head of a kneeling man in a red and gold tunic with his hands folded, a jeweled pot on a small platform, a green curtain and stone pillars behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Vamana",
+        "Bali"
+      ],
+      "scene": "Vamana placing his third step on the head of King Bali",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_harihara_c09.png": {
+    "training_caption": "<ravivarma_style>, a blue-skinned crowned man and a woman riding a white elephant beside a matted-haired man with a trident, a woman and a child riding a white bull, two winged women flying overhead against a yellow sky, a lake and mountains behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Vishnu",
+        "Lakshmi",
+        "Shiva",
+        "Parvati"
+      ],
+      "scene": "Vishnu and Shiva, each with his consort, meeting on their mounts, the elephant and the bull",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_muralidhara_c12.png": {
+    "training_caption": "<ravivarma_style>, a young man in a tall jeweled crown and flower garlands playing a flute, seated on a carpet on a marble terrace in a yellow dhoti with a green scarf, a woman in a maroon saree seated behind him leaning on the ledge with her head resting on her hand, a garden and a stone vase with lilies behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Krishna",
+        "Radha"
+      ],
+      "scene": "Krishna playing the flute on a terrace while Radha looks on affectionately",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_usha_dream_c13.png": {
+    "training_caption": "<ravivarma_style>, a woman in a cream dress lying asleep on a golden divan with a red cushion, a pale translucent figure in a crown-like headband bending over her from behind, a small table with a lamp and a dish at the right, patterned silk drapes and paneled walls, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Usha"
+      ],
+      "scene": "Usha asleep on a divan, dreaming, with a ghostly translucent figure hovering over her",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_sita_golden_deer_b30.png": {
+    "training_caption": "<ravivarma_style>, a woman in a red saree with a gold border standing in a forest clearing holding out one hand to a spotted stag, several more deer around her, a thatched hut, trees and a river behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Sita"
+      ],
+      "scene": "Sita beside her forest hut, drawn to the golden deer sent by Ravana's helper Maricha",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_draupadi_sudeshna_c14.png": {
+    "training_caption": "<ravivarma_style>, two women standing close together in a palace, an older woman in a red saree and a patterned gold shawl holding a tray with a small pitcher, and a younger woman in a dark teal saree pressing her hands together with a worried, pleading expression, a pillar and heavy drapes behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Draupadi",
+        "Sudeshna"
+      ],
+      "scene": "Draupadi, disguised as Sairandhri, pleading with Queen Sudeshna not to send her to Keechaka",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_maruti_hanuman_b32.png": {
+    "training_caption": "<ravivarma_style>, a monkey-faced figure with a white beard and a gold crown running through the air in a red garment, holding a rocky mountain aloft on one palm and a mace over his shoulder, a river and mountains below, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Ramayana",
+      "characters": [
+        "Hanuman"
+      ],
+      "scene": "Hanuman carrying the mountain of healing herbs through the air to revive Rama's army",
+      "source_collector": "member_b"
+    }
+  },
+  "varma_yashoda_krishna_c16.png": {
+    "training_caption": "<ravivarma_style>, a seated woman in a maroon saree holding a small child in a crown and gold necklaces on her lap, a second woman in a yellow saree kneeling beside them and clapping her hands, an arched window opening onto fields, a checkered floor, a brass vase and a bowl of fruit, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Yashoda",
+        "Krishna"
+      ],
+      "scene": "Yashoda holding the infant Krishna in her lap while a woman plays with him",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_menaka_shakuntala_c15.png": {
+    "training_caption": "<ravivarma_style>, two women embracing and floating through soft orange clouds, an older woman in a golden-yellow saree with long dark hair holding a smaller woman in a red saree and striped blouse against her shoulder, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Menaka",
+        "Shakuntala"
+      ],
+      "scene": "Menaka embracing her daughter Shakuntala as they float through the clouds",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_ashtabujadevi_c18.png": {
+    "training_caption": "<ravivarma_style>, an eight-armed goddess in a red and green outfit with a tall crown, standing on a lion and holding a trident, a sword and other weapons, striking down a mustached demon with a shield, a dead buffalo in the foreground and a second fallen demon at the lower right, forest behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Durga",
+        "Mahishasura"
+      ],
+      "scene": "The eight-armed goddess Durga, mounted on a lion, slaying the demon Mahishasura",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_shungrasoobyer_c25.png": {
+    "training_caption": "<ravivarma_style>, a seated man in a black long coat with a white and gold striped sash over his shoulder, a white and gold turban and a white dhoti, hands clasped in his lap, a bookshelf, a green curtain and a desk with books behind him, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Shungrasoobyer Avergal"
+      ],
+      "scene": "Formal portrait of Shungrasoobyer Avergal, Dewan of Travancore, seated in a study",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_krishna_freeing_parents_c20.png": {
+    "training_caption": "<ravivarma_style>, the inside of a dim prison cell with a barred window, a bearded man in a white dhoti embracing a crowned woman, a woman in a red saree kneeling and embracing a boy in a crown and yellow dhoti, a blacksmith with tools crouching at the lower left, a guard with a sword and a white-bearded elder standing in the shadows, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Krishna",
+        "Vasudeva",
+        "Devaki"
+      ],
+      "scene": "Krishna freeing his imprisoned parents after killing Kamsa",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_tarabai_c21.png": {
+    "training_caption": "<ravivarma_style>, a young woman seated on a wooden chair in a grey saree with a gold-embroidered yellow shawl, silver and pearl jewelry, a nose ornament and bangles, holding a folded paper in her hand, a blue wall with tasseled curtains and a vase of flowers behind her, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Princess Tarabai"
+      ],
+      "scene": "Portrait of Princess Tarabai seated in an early Tanjore-influenced style",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_seth_lachman_das_c23.png": {
+    "training_caption": "<ravivarma_style>, a seated man in a dark purple velvet coat heavily embroidered in gold, a pink cap, a mustache, a pearl necklace with a medal and black shoes, a floral curtain, a stone pillar and a city skyline seen through an arch behind him, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "",
+      "characters": [
+        "Seth Lachman Das"
+      ],
+      "scene": "Formal portrait of the banker Seth Lachman Das seated by a palace window",
+      "source_collector": "member_c"
+    }
+  },
+  "varma_savitri_c24.png": {
+    "training_caption": "<ravivarma_style>, a woman in a red saree kneeling on the ground with one hand raised, cradling the head of a man lying beside her, a pale translucent standing figure holding a staff at the upper left, bundles of firewood in the foreground, forest trees behind, oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "scene_metadata": {
+      "epic": "Mahabharata",
+      "characters": [
+        "Savitri",
+        "Satyavan",
+        "Yama"
+      ],
+      "scene": "Savitri holding her dead husband Satyavan and confronting Yama, the god of death",
+      "source_collector": "member_c"
+    }
+  }
+}
