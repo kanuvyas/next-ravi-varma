@@ -1,0 +1,13 @@
+{
+  "n_train": 147,
+  "trigger": "rrvarma style",
+  "style_suffix_in_v2": "oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+  "sha256_metadata_v1": "d3189d3530c858951290abd6bb8b21a17289107057eb37eab9125236a3e5e6b1",
+  "sha256_metadata_v2": "b08fcc266efcd84d5b160a9a54a886beb79891d84a1d4fc1e1954df38f658ed5",
+  "dropped": [
+    "varma_ladies_moonlight_a01",
+    "varma_murugan_a62"
+  ],
+  "manual_crops": {},
+  "padded": []
+}
