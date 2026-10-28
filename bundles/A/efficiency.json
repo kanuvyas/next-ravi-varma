@@ -1,0 +1,10 @@
+{
+ "trainable_params": 3188736,
+ "pct_of_unet": 0.371,
+ "file_MB": 6.4,
+ "gpu": "T4",
+ "peak_vram_gb": 9.5,
+ "s_per_optimizer_step": 8.71,
+ "wall_clock_min": 232.3,
+ "precision": "fp16 + gradient checkpointing"
+}
