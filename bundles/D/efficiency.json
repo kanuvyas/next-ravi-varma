@@ -1,0 +1,11 @@
+{
+ "trainable_params": 3188736,
+ "pct_of_unet": 0.371,
+ "file_MB": 6.4,
+ "gpu": "T4",
+ "peak_vram_gb": 6.0,
+ "s_per_optimizer_step": 9.0,
+ "wall_clock_min": 300.0,
+ "precision": "bf16 + gradient checkpointing",
+ "notes": "peak_vram_gb from sampled nvidia-smi readings (not a true peak); s_per_optimizer_step is the typical steady-state value (range 7.9-9.7); wall_clock_min is approximate GPU time summed over 3 sessions; run was resumed after disconnects at steps 400, 1000 and 1200"
+}

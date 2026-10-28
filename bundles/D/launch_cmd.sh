@@ -1,0 +1,11 @@
+accelerate launch --mixed_precision="bf16" /content/diffusers/examples/text_to_image/train_text_to_image_lora.py \
+  --pretrained_model_name_or_path="stable-diffusion-v1-5/stable-diffusion-v1-5" \
+  --train_data_dir="/content/train_v1" --caption_column="text" \
+  --resolution=512 --center_crop --random_flip \
+  --train_batch_size=1 --gradient_accumulation_steps=4 --gradient_checkpointing \
+  --dataloader_num_workers=2 --max_train_steps=1600 \
+  --learning_rate=2e-4 --lr_scheduler="constant_with_warmup" --lr_warmup_steps=100 \
+  --rank=16 --seed=42 --checkpointing_steps=200 \
+  --validation_prompt="rrvarma style, a woman in a silk sari standing in a palace hall" \
+  --num_validation_images=4 --validation_epochs=8 --report_to="tensorboard" \
+  --output_dir="/content/drive/MyDrive/m2/runs/D_lr2e-4" --resume_from_checkpoint=latest

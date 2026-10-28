@@ -1,0 +1,76 @@
+Unable to import `torchao` Tensor objects. This may affect loading checkpoints serialized with `torchao`
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]
+Loading weights:  62%|██████▏   | 368/590 [00:00<00:00, 3562.53it/s]
+Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4527.72it/s]
+
+Loading weights:   0%|          | 0/223 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 223/223 [00:00<00:00, 4185.45it/s]
+/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+ceiling (real Varma style_margin): 0.123
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files:  15%|█▌        | 2/13 [00:00<00:00, 17.27it/s]
+Fetching 13 files:  69%|██████▉   | 9/13 [00:00<00:00, 44.23it/s]
+Fetching 13 files:  85%|████████▍ | 11/13 [00:12<00:00, 44.23it/s]
+Fetching 13 files:  92%|█████████▏| 12/13 [00:15<00:01,  1.74s/it]
+Fetching 13 files: 100%|██████████| 13/13 [00:25<00:00,  2.89s/it]
+Fetching 13 files: 100%|██████████| 13/13 [00:26<00:00,  2.01s/it]
+
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]
+
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s][A
+
+Loading weights:   1%|          | 2/196 [00:01<02:03,  1.57it/s][A
+
+Loading weights:  53%|█████▎    | 104/196 [00:01<00:00, 98.90it/s][A
+
+Loading weights:  73%|███████▎  | 144/196 [00:01<00:00, 111.91it/s][A
+
+Loading weights:  88%|████████▊ | 173/196 [00:01<00:00, 127.44it/s][A
+Loading weights: 100%|██████████| 196/196 [00:01<00:00, 99.32it/s] 
+
+Loading pipeline components...:  17%|█▋        | 1/6 [00:02<00:10,  2.13s/it]
+Loading pipeline components...:  50%|█████     | 3/6 [00:02<00:01,  1.64it/s]
+Loading pipeline components...:  83%|████████▎ | 5/6 [00:16<00:03,  3.88s/it]
+Loading pipeline components...: 100%|██████████| 6/6 [00:17<00:00,  3.20s/it]
+Loading pipeline components...: 100%|██████████| 6/6 [00:17<00:00,  2.93s/it]
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py:205: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to CLIPTextModel found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any CLIPTextModel related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+checkpoints found: [200, 400, 600, 800, 1000, 1200, 1400, 1600]
+screened 200
+screened 400
+screened 600
+screened 800
+screened 1000
+screened 1200
+screened 1400
+screened 1600
+deep-scored 1600
+deep-scored 1400
+deep-scored 800
+ step  stage  style_margin  clip_text  max_train_dino_p95  holdout_loss  train_probe_loss  style_bleed  drift
+  800   deep        0.1228     0.2996              0.8461        0.2008            0.1880       0.0111 0.1651
+ 1400   deep        0.1267     0.2891              0.8443        0.2007            0.1875       0.0142 0.1610
+ 1600   deep        0.1325     0.2920              0.8405        0.2006            0.1874       0.0134 0.1559
+  200 screen        0.0809     0.3028              0.7986        0.2008            0.1889       0.0142 0.1083
+  400 screen        0.1129     0.3147              0.8128        0.2007            0.1884       0.0105 0.1174
+  600 screen        0.1144     0.2959              0.8327        0.2007            0.1883       0.0164 0.1274
+  800 screen        0.1280     0.3011              0.8194        0.2008            0.1880      -0.0052 0.1533
+ 1000 screen        0.1148     0.2888              0.8079        0.2007            0.1879      -0.0086 0.1368
+ 1200 screen        0.1192     0.2874              0.8261        0.2007            0.1877      -0.0182 0.1326
+ 1400 screen        0.1330     0.2851              0.8352        0.2007            0.1875      -0.0092 0.1345
+ 1600 screen        0.1342     0.2910              0.8291        0.2006            0.1874      -0.0120 0.1498
