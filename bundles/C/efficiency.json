@@ -1,0 +1,11 @@
+{
+ "trainable_params": 6377472,
+ "pct_of_unet": 0.742,
+ "file_MB": 25.5,
+ "gpu": "T4",
+ "peak_vram_gb": null,
+ "s_per_optimizer_step": 8.3,
+ "wall_clock_min": 393.0,
+ "precision": "fp16 + gradient checkpointing",
+ "notes": "s_per_optimizer_step is the median of per-step gaps from TensorBoard timestamps; wall_clock_min sums active time with disconnect gaps excluded (estimate). peak_vram_gb not measured during training."
+}
