@@ -26,7 +26,7 @@ Sampling used in our tests: DPM++ (dpmsolver++), 30 steps, CFG 7.0, 512x512, pro
 | Path | What is in it |
 |---|---|
 | `docs/` | Project proposal and the team decision logs for Milestone 1 and Milestone 2 |
-| `m1_data/` | Milestone 1 data work: provenance log (`DATA_provenance_Sheet1.csv`), caption instructions, captions (`captions_txt/`, `final_captions.json`), dropped images list |
+| `m1_data/` | Milestone 1 data work: provenance log (`DATA_provenance_Sheet1.csv`, `DATA_provenance_Sheet5.csv`), caption instructions, captions (`captions_txt/`, `final_captions.json`), dropped images list |
 | `m2_training/kit/` | The Milestone 2 kit: launch, sweep, evaluation and metric scripts, thresholds, eval prompts |
 | `m2_training/dataset/` | Frozen training set: `train_v1` (plain captions), `train_v2` list, dataset card, `DATA_FROZEN.json`, decisions |
 | `m2_eval/` | Evaluation holdout and the control-art set with its log |

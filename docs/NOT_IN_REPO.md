@@ -21,6 +21,6 @@ Google-native files cannot be copied as files, so they were converted to text:
 
 - `#READ- TEAM_DECISIONS` is `docs/TEAM_DECISIONS_M1.md`, with the link to the DATA sheet removed.
 - `captions` is `m1_data/captions_instructions.md`.
-- `DATA` is `m1_data/DATA_provenance_Sheet1.csv`. Only its first tab (Sheet1, 169 rows) was converted. The second tab, Sheet5 ("no duplicates as of 19th September"), is not included.
+- `DATA` is `m1_data/DATA_provenance_Sheet1.csv` (169 rows) and `m1_data/DATA_provenance_Sheet5.csv` (the "no duplicates as of 19th September" tab, exported by the team).
 - `dropped_images` is `m1_data/dropped_images.csv` (header only, no rows listed).
-- Bundle A's `NOTES.md` is not included.
+- Bundle A's `NOTES.md` is `bundles/A/NOTES.md`.
