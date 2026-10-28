@@ -1,0 +1,22 @@
+{
+ "prompts": [
+  "rrvarma style, a woman in a silk sari standing in a palace hall",
+  "rrvarma style, two figures conversing beside a pillar",
+  "rrvarma style, a seated woman holding a garland",
+  "rrvarma style, a king seated on a throne surrounded by courtiers"
+ ],
+ "seeds": [
+  1
+ ],
+ "scale": 0.8,
+ "checkpoint": "/content/drive/MyDrive/m2/bundles/D/weights/checkpoint-800",
+ "gpu": "Tesla T4",
+ "versions": {
+  "torch": "2.11.0+cu130",
+  "diffusers": "0.40.0",
+  "transformers": "5.17.0",
+  "peft": "0.21.0",
+  "accelerate": "1.15.0",
+  "safetensors": "0.8.0"
+ }
+}

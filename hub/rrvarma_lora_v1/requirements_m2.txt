@@ -1,0 +1,10 @@
+accelerate==1.15.0
+datasets==4.8.5
+diffusers==0.40.0
+ImageHash==4.3.2
+peft==0.21.0
+safetensors==0.8.0
+tensorboard==2.20.0
+tokenizers==0.23.2
+torchao==0.18.0
+transformers==5.17.0

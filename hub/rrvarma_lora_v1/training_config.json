@@ -1,0 +1,49 @@
+{
+  "base_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "method": "LoRA on UNet (diffusers train_text_to_image_lora.py)",
+  "run_name": "D_lr2e-4",
+  "selected_checkpoint_step": 800,
+  "total_steps_run": 1600,
+  "note": "Weights in this hub are checkpoint-800 of a 1600-step run, chosen by the team tie rule (see TEAM_DECISIONS_M2.md).",
+  "rank": 16,
+  "learning_rate": 0.0002,
+  "lr_scheduler": "constant_with_warmup",
+  "warmup_steps": 100,
+  "batch_size_per_device": 1,
+  "gradient_accumulation_steps": 4,
+  "effective_batch_size": 4,
+  "seed": 42,
+  "precision": "bf16 mixed precision with gradient checkpointing",
+  "dataset": "train_v1 (147 images)",
+  "dataset_freeze_record": {
+    "n_train": 147,
+    "trigger": "rrvarma style",
+    "style_suffix_in_v2": "oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+    "sha256_metadata_v1": "d3189d3530c858951290abd6bb8b21a17289107057eb37eab9125236a3e5e6b1",
+    "sha256_metadata_v2": "b08fcc266efcd84d5b160a9a54a886beb79891d84a1d4fc1e1954df38f658ed5",
+    "dropped": [
+      "varma_ladies_moonlight_a01",
+      "varma_murugan_a62"
+    ],
+    "manual_crops": {},
+    "padded": []
+  },
+  "recommended_inference_scale": 0.8,
+  "hardware": "Colab T4",
+  "efficiency_full_run": {
+    "trainable_params": 3188736,
+    "pct_of_unet": 0.371,
+    "file_MB": 6.4,
+    "gpu": "T4",
+    "peak_vram_gb": 6.0,
+    "s_per_optimizer_step": 9.0,
+    "wall_clock_min": 300.0,
+    "precision": "bf16 mixed precision with gradient checkpointing",
+    "notes": "peak_vram_gb from sampled nvidia-smi readings (not a true peak); s_per_optimizer_step is the typical steady-state value (range 7.9-9.7); wall_clock_min is approximate GPU time summed over 3 sessions; run was resumed after disconnects at steps 400, 1000 and 1200"
+  },
+  "caveats": [
+    "Run was resumed from checkpoints several times because of Colab disconnects.",
+    "Trained on v1 captions (no style suffix); eval holdout captions use the v2 suffix.",
+    "Efficiency numbers describe the full 1600-step run, not only the first 800 steps."
+  ]
+}
