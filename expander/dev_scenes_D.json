@@ -1,0 +1,167 @@
+[
+ {
+  "id": "s25",
+  "split": "dev",
+  "text": "Hanuman flying through the sky carrying a mountain of healing herbs",
+  "tier": 1,
+  "expected_epic": "Ramayana",
+  "expected_characters": ["Hanuman"],
+  "seen_in_training": true,
+  "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Is a single main figure shown in mid-air, not standing on the ground?", "type": "figure", "weight": 1.0},
+   {"id": "c2", "q": "Is the figure holding up a large rock or a piece of a mountain?", "type": "object", "weight": 1.0},
+   {"id": "c3", "q": "Does the figure have a monkey-like face?", "type": "figure", "weight": 1.0},
+   {"id": "c4", "q": "Is one of the figure's arms raised above his head?", "type": "pose", "weight": 0.5},
+   {"id": "c5", "q": "Is the background mostly sky or clouds?", "type": "setting", "weight": 0.5}
+  ],
+  "_tags": ["plain_sentence"],
+  "_seen_note": "PROPOSED true: m1_data/final_captions.json varma_maruti_hanuman_b32.png (in train_v1) scene = 'Hanuman carrying the mountain of healing herbs through the air to revive Rama's army' (same episode and composition). B confirms.",
+  "_notes": "Tier 1: one well-known, well-covered character (Hanuman, 4 STRICT images), simple action."
+ },
+ {
+  "id": "s26",
+  "split": "dev",
+  "text": "Show Krishna as the charioteer, turning to counsel a hesitant Arjuna who has lowered his bow, in their chariot just before the battle begins",
+  "tier": 2,
+  "expected_epic": "Mahabharata",
+  "expected_characters": ["Krishna", "Arjuna"],
+  "seen_in_training": false,
+  "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Are there exactly two main figures?", "type": "count", "weight": 1.0},
+   {"id": "c2", "q": "Are the two figures in a chariot?", "type": "object", "weight": 1.0},
+   {"id": "c3", "q": "Is one figure raising a hand toward the other, as if speaking to him?", "type": "pose", "weight": 1.0},
+   {"id": "c4", "q": "Is one of the two figures blue-skinned?", "type": "figure", "weight": 1.0},
+   {"id": "c5", "q": "Is one figure holding a bow?", "type": "object", "weight": 0.5},
+   {"id": "c6", "q": "Are horses visible?", "type": "object", "weight": 0.5}
+  ],
+  "_tags": ["imperative"],
+  "_seen_note": "PROPOSED false: no final_captions.json scene shows the chariot dialogue before the battle. Krishna appears in 9 training scenes and Arjuna in 2 (arjuna_subhadra_b03, draupadi_pandavas_b07), never together in a chariot.",
+  "_notes": "Tier 2: two characters interacting. c4 (blue skin) is the visual cue a KB description should supply; it is answerable from the image alone."
+ },
+ {
+  "id": "s27",
+  "split": "dev",
+  "text": "yashodha scolding little krishn, his face smeared with butter and a broken pot lying on the floor beside them",
+  "tier": 2,
+  "expected_epic": "Puranic",
+  "expected_characters": ["Yashoda", "Krishna"],
+  "seen_in_training": false,
+  "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Are there exactly two figures, an adult woman and a small child?", "type": "count", "weight": 1.0},
+   {"id": "c2", "q": "Is the woman bending or leaning toward the child?", "type": "pose", "weight": 1.0},
+   {"id": "c3", "q": "Is there a clay pot, broken or whole, in the scene?", "type": "object", "weight": 1.0},
+   {"id": "c4", "q": "Is the woman wearing a sari?", "type": "attire", "weight": 0.5},
+   {"id": "c5", "q": "Is the scene inside a house or a courtyard?", "type": "setting", "weight": 0.5}
+  ],
+  "_tags": ["misspelling", "lowercase"],
+  "_seen_note": "PROPOSED false: the three Yashoda/Krishna training images show other scenes (b17 'Yashoda milking a cow with the child Krishna holding a cup beside her'; c16 'Yashoda holding the infant Krishna in her lap while a woman plays with him'; a68 has a blank scene, and its train_v1 caption shows the woman holding the child against her hip, not a scolding). No butter-theft scene.",
+  "_notes": "Misspellings 'yashodha' and 'krishn' and all lowercase; 'Krishn' is also a listed alias. Epic: Puranic (Bhagavata Purana), as the team's enum has no separate Bhagavata value. Butter on the face is not asked: too small to judge at 512x512."
+ },
+ {
+  "id": "s28",
+  "split": "dev",
+  "text": "The coronation of Rama and Sita in Ayodhya: the couple seated on the throne, Lakshmana, Bharata and Shatrughna standing beside them, and Hanuman kneeling at their feet",
+  "tier": 3,
+  "expected_epic": "Ramayana",
+  "expected_characters": ["Rama", "Sita", "Lakshmana", "Bharata", "Shatrughna", "Hanuman"],
+  "seen_in_training": true,
+  "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Are there at least five figures in the image?", "type": "count", "weight": 1.0},
+   {"id": "c2", "q": "Are a man and a woman seated side by side on a raised throne?", "type": "pose", "weight": 1.0},
+   {"id": "c3", "q": "Is a figure kneeling in front of the throne?", "type": "pose", "weight": 1.0},
+   {"id": "c4", "q": "Is the seated man wearing a crown?", "type": "attire", "weight": 1.0},
+   {"id": "c5", "q": "Are some figures standing beside or behind the throne?", "type": "pose", "weight": 0.5},
+   {"id": "c6", "q": "Is the scene inside a palace or royal hall?", "type": "setting", "weight": 0.5}
+  ],
+  "_tags": ["colon_list", "many_names"],
+  "_seen_note": "PROPOSED true: two train_v1 images match: varma_rama_pattabhishekham_c07.png scene 'The coronation of Rama at Ayodhya, with Sita, his brothers, Hanuman and the sage Vashishta attending' and varma_ramapanchayan_a13.png scene 'Rama enthroned with Sita, his brothers and Hanuman'.",
+  "_notes": "Tier 3: six named figures in a court. The most-covered characters (Sita 10, Rama 9), so a seen/high-coverage anchor for B's seen-vs-unseen split."
+ },
+ {
+  "id": "s29",
+  "split": "dev",
+  "text": "Bhishma lying on a bed of arrows on the field of Kurukshetra while the Pandavas and Krishna gather around him at dusk",
+  "tier": 3,
+  "expected_epic": "Mahabharata",
+  "expected_characters": ["Bhishma", "Krishna"],
+  "seen_in_training": false,
+  "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Is an old man with a white beard lying down?", "type": "figure", "weight": 1.0},
+   {"id": "c2", "q": "Are many arrows visible beneath or around the lying man?", "type": "object", "weight": 1.0},
+   {"id": "c3", "q": "Are three or more people standing or kneeling around the lying man?", "type": "count", "weight": 1.0},
+   {"id": "c4", "q": "Is the scene outdoors on open ground?", "type": "setting", "weight": 0.5},
+   {"id": "c5", "q": "Is the light dim, like dusk or evening?", "type": "mood", "weight": 0.5}
+  ],
+  "_tags": ["group_mention"],
+  "_groups": ["Pandavas"],
+  "_seen_note": "PROPOSED false: the only Bhishma training image (varma_bheeshma_oath_a50.png) shows a different episode, 'Bhishma's vows to give up the throne and remain celibate, before a fisher family by the river'.",
+  "_notes": "expected_characters lists only the individually named figures. 'the Pandavas' is a group mention: the text implies the five brothers as a crowd, not as identifiable individuals, so they are recorded in _groups and not expanded (parser recall should not depend on group expansion). Pending B/C agreement. Violence kept to what the epic scene needs: no wounds or blood are described or asked about."
+ },
+ {
+  "id": "s30",
+  "split": "dev",
+  "text": "At Draupadi's swayamvara, Arjuna, dressed as a poor brahmin, bends the great bow and aims upward at the fish target turning high above a crowded hall of seated kings, while Draupadi waits holding a garland",
+  "tier": 3,
+  "expected_epic": "Mahabharata",
+  "expected_characters": ["Draupadi", "Arjuna"],
+  "seen_in_training": false,
+  "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Is a man drawing a bow and aiming upward?", "type": "pose", "weight": 1.0},
+   {"id": "c2", "q": "Are five or more people watching in the background?", "type": "count", "weight": 1.0},
+   {"id": "c3", "q": "Is there a woman holding a flower garland?", "type": "object", "weight": 1.0},
+   {"id": "c4", "q": "Is the archer dressed plainly, without armour or a crown?", "type": "attire", "weight": 0.5},
+   {"id": "c5", "q": "Is there a target hanging or mounted high above the people?", "type": "object", "weight": 0.5},
+   {"id": "c6", "q": "Is the scene inside a large hall with pillars?", "type": "setting", "weight": 0.5}
+  ],
+  "_tags": ["long_sentence", "court_crowd"],
+  "_seen_note": "PROPOSED false: no Draupadi swayamvara in final_captions.json. The nearest training scene is a different swayamvara (varma_ram_a16.png 'Rama lifting the great bow at Sita's swayamvara'), which shares the bow-in-court composition but not the episode. B may want to flag it as 'near-seen'.",
+  "_notes": "Tier 3: court crowd plus one action figure; c1/c2 are the pose and count items the layout condition (c5) targets."
+ },
+ {
+  "id": "s31",
+  "split": "dev",
+  "text": "old Shabri offerring berries to Ram and Laxman outside her little hut in the forrest",
+  "tier": 4,
+  "expected_epic": "Ramayana",
+  "expected_characters": ["Shabari", "Rama", "Lakshmana"],
+  "seen_in_training": false,
+  "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Is there an elderly woman?", "type": "figure", "weight": 1.0},
+   {"id": "c2", "q": "Is the woman holding out fruit or berries toward someone?", "type": "pose", "weight": 1.0},
+   {"id": "c3", "q": "Are there two young men facing her?", "type": "count", "weight": 1.0},
+   {"id": "c4", "q": "Is either of the men holding a bow?", "type": "object", "weight": 0.5},
+   {"id": "c5", "q": "Is there a hut or forest in the background?", "type": "setting", "weight": 0.5}
+  ],
+  "_tags": ["misspelling", "spelling_variant", "absent_character"],
+  "_seen_note": "PROPOSED false: Shabari does not occur in any final_captions.json scene_metadata (characters or scene). Rama and Lakshmana are well covered but never in this episode.",
+  "_notes": "Tier 4: absent-in-training character (Shabari, coverage none) written as the variant 'Shabri', plus the variants 'Ram' and 'Laxman' and the typos 'offerring' and 'forrest'. This is where H-D2 (KB vs no KB) is meant to bite."
+ },
+ {
+  "id": "s32",
+  "split": "dev",
+  "text": "ok so i dont really remember the story, its from an old picture my grandmother kept in her pooja room. there is an old king, very tired and sad, lying on the floor of a dark room in his pallace, his crown fallen off and lying next to him. his young wife is sitting on a low bed a little way off with her back half turned to him, still angry, and her jewelery is thrown all over the floor around her. there is only one small lamp burning so most of the room is in shadow. i think he was begging her to change her mind about something and she wouldnt listen. can you make it look like that, quiet and sad",
+  "tier": 5,
+  "expected_epic": "Unknown",
+  "expected_characters": [],
+  "seen_in_training": false,
+  "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Are there exactly two main figures, a man and a woman?", "type": "count", "weight": 1.0},
+   {"id": "c2", "q": "Is an older man lying or slumped on the floor?", "type": "pose", "weight": 1.0},
+   {"id": "c3", "q": "Is the woman seated and turned away from the man?", "type": "pose", "weight": 1.0},
+   {"id": "c4", "q": "Is a crown lying on the floor rather than on someone's head?", "type": "object", "weight": 0.5},
+   {"id": "c5", "q": "Is the room mostly in shadow, lit by a single small light?", "type": "mood", "weight": 0.5},
+   {"id": "c6", "q": "Is the scene indoors?", "type": "setting", "weight": 0.5}
+  ],
+  "_tags": ["long_text", "vague", "misspelling", "conversational", "lowercase"],
+  "_seen_note": "PROPOSED false: no final_captions.json scene shows a king lying on the floor before a turned-away queen. The text names no one, so it cannot be matched by name either.",
+  "_notes": "Tier 5 stress: 123 words, conversational, lowercase, no names and no epic (vague), typos 'pallace', 'jewelery', 'dont', 'wouldnt'. The scene was inspired by the Ramayana episode of the king and his queen in the chamber of anger, but because the text names neither the epic nor anyone in it, expected_epic is Unknown and expected_characters is empty: the parser should find nothing, and the expander has to work from the description alone. Long enough that c1 (raw text) is truncated at 77 CLIP tokens."
+ }
+]
