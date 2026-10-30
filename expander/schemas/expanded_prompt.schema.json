@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "expander/schemas/expanded_prompt.schema.json",
+  "title": "ExpandedPrompt (Overview v2 section 6.4) as written by expander.expand.expand()",
+  "description": "Required: the 16 contract fields plus D's extra names_after_repair (names found in the final positive; must be [] except in raw mode, which keeps the user's text on purpose). Extra fields are allowed.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["scene_id", "condition", "split", "positive", "negative", "phrases_kept", "phrases_dropped",
+               "token_count", "trigger_first", "names_leaked", "source", "layout", "llm_model",
+               "prompt_version", "kb_version", "latency_s", "names_after_repair"],
+  "properties": {
+    "scene_id": {"type": "string"},
+    "condition": {"type": "string", "pattern": "^c[0-9]+[a-z]*(_[A-Za-z0-9]+)*$"},
+    "split": {"enum": ["", "dev", "heldout", "test"]},
+    "positive": {"type": "string", "minLength": 1},
+    "negative": {"type": "string"},
+    "phrases_kept": {"type": "array", "items": {"type": "string"}},
+    "phrases_dropped": {"type": "array", "items": {"type": "string"}},
+    "token_count": {"type": "integer", "minimum": -1},
+    "trigger_first": {"type": "boolean"},
+    "names_leaked": {"type": "array", "items": {"type": "string"}},
+    "source": {"enum": ["llm", "template", "fallback"]},
+    "layout": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "object",
+         "required": ["n_figures", "figures"],
+         "properties": {
+           "n_figures": {"type": "integer", "minimum": 1},
+           "figures": {"type": "array", "items": {
+             "type": "object", "required": ["role"],
+             "properties": {
+               "role": {"type": "string"},
+               "pose": {"enum": ["standing", "seated", "kneeling", "lying", "reclining", "arms_raised", "walking", "flying"]},
+               "position": {"enum": ["left", "center", "right", "foreground", "background"]}}}}}}
+      ]
+    },
+    "llm_model": {"type": "string"},
+    "prompt_version": {"type": "string"},
+    "kb_version": {"type": "string"},
+    "latency_s": {"type": "number", "minimum": 0},
+    "names_after_repair": {"type": "array", "items": {"type": "string"}},
+    "phrases_scrubbed": {"type": "array", "items": {"type": "string"}},
+    "mode": {"enum": ["raw", "template", "llm_kb", "llm_nokb", "llm_kb_layout"]},
+    "json_retry": {"type": "boolean"},
+    "name_repair": {"type": "boolean"},
+    "cache_hits": {"type": "integer", "minimum": 0},
+    "llm_calls": {"type": "integer", "minimum": 0},
+    "error": {"type": ["string", "null"]},
+    "note": {"type": ["string", "null"]}
+  }
+}

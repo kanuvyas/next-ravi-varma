@@ -1,0 +1,25 @@
+[
+ {"id": "f01", "split": "dev", "text": "Sita weeping alone in the forest",
+  "tier": 1, "expected_epic": "Ramayana", "expected_characters": ["Sita"],
+  "seen_in_training": true, "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Is there exactly one main figure, a woman?", "type": "count", "weight": 1.0},
+   {"id": "c2", "q": "Is the woman's head lowered or her face covered, as if crying?", "type": "pose", "weight": 1.0},
+   {"id": "c3", "q": "Are trees visible around her?", "type": "setting", "weight": 0.5}]},
+ {"id": "f02", "split": "dev", "text": "Draupadi pleading with Krishna in the palace court, her hands joined",
+  "tier": 2, "expected_epic": "Mahabharata", "expected_characters": ["Draupadi", "Krishna"],
+  "seen_in_training": false, "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Are there two main figures, a woman and a man?", "type": "count", "weight": 1.0},
+   {"id": "c2", "q": "Is the woman holding her palms together in front of her?", "type": "pose", "weight": 1.0},
+   {"id": "c3", "q": "Does the man have blue skin?", "type": "figure", "weight": 1.0},
+   {"id": "c4", "q": "Is the scene inside a hall with columns?", "type": "setting", "weight": 0.5}]},
+ {"id": "f03", "split": "dev", "text": "Rama and Sita seated on a throne in the royal hall, Hanuman kneeling at their feet with folded hands",
+  "tier": 3, "expected_epic": "Ramayana", "expected_characters": ["Rama", "Sita", "Hanuman"],
+  "seen_in_training": true, "contributed_by": "D",
+  "checklist": [
+   {"id": "c1", "q": "Are a man and a woman seated side by side?", "type": "pose", "weight": 1.0},
+   {"id": "c2", "q": "Is a monkey-faced figure kneeling in front of them?", "type": "figure", "weight": 1.0},
+   {"id": "c3", "q": "Are the seated figures wearing crowns?", "type": "attire", "weight": 1.0},
+   {"id": "c4", "q": "Is the scene inside a palace hall?", "type": "setting", "weight": 0.5}]}
+]

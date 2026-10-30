@@ -1,0 +1,684 @@
+{
+ "Rama": [
+  "Ram",
+  "Sri Rama",
+  "Shri Ram",
+  "Ramachandra",
+  "Raghava",
+  "Raghunatha",
+  "Dasharathi",
+  "Raghupati"
+ ],
+ "Sita": [
+  "Seetha",
+  "Seeta",
+  "Sitha",
+  "Janaki",
+  "Vaidehi",
+  "Maithili"
+ ],
+ "Lakshmana": [
+  "Laxman",
+  "Lakshman",
+  "Lakshmanan",
+  "Lakhan",
+  "Saumitri"
+ ],
+ "Bharata": [
+  "Bharat"
+ ],
+ "Shatrughna": [
+  "Shatrughan",
+  "Satrughna",
+  "Shatrughana"
+ ],
+ "Hanuman": [
+  "Maruti",
+  "Maruthi",
+  "Anjaneya",
+  "Hanumanta",
+  "Hanumantha",
+  "Bajrangbali",
+  "Pavanputra"
+ ],
+ "Ravana": [
+  "Ravan",
+  "Raavan",
+  "Raavana",
+  "Dashanana",
+  "Dasagriva",
+  "Lankesh",
+  "Lankeshwar"
+ ],
+ "Meghanada": [
+  "Indrajit",
+  "Indrajeet",
+  "Meghnad",
+  "Meghanad"
+ ],
+ "Jatayu": [
+  "Jatayus"
+ ],
+ "Janaka": [
+  "Janak"
+ ],
+ "Vishwamitra": [
+  "Viswamitra",
+  "Vishvamitra",
+  "Vishwamitr"
+ ],
+ "Vashishta": [
+  "Vasishtha",
+  "Vasistha",
+  "Vashisht",
+  "Vasishta"
+ ],
+ "Ahalya": [
+  "Ahilya",
+  "Ahalyaa"
+ ],
+ "Lava": [
+  "Luv",
+  "Lav"
+ ],
+ "Kusha": [
+  "Kush"
+ ],
+ "Dasharatha": [
+  "Dasaratha",
+  "Dashrath",
+  "Dasharath"
+ ],
+ "Kaikeyi": [
+  "Kaikayi"
+ ],
+ "Kausalya": [
+  "Kaushalya",
+  "Kousalya"
+ ],
+ "Sumitra": [],
+ "Urmila": [],
+ "Sugriva": [
+  "Sugreeva",
+  "Sugriv",
+  "Sugreev"
+ ],
+ "Vali": [
+  "Vaali"
+ ],
+ "Angada": [
+  "Angad"
+ ],
+ "Jambavan": [
+  "Jambavantha",
+  "Jambavat"
+ ],
+ "Vibhishana": [
+  "Vibheeshana",
+  "Vibhishan",
+  "Bibhishan"
+ ],
+ "Kumbhakarna": [
+  "Kumbhakaran"
+ ],
+ "Mandodari": [],
+ "Shurpanakha": [
+  "Surpanakha",
+  "Soorpanakha",
+  "Shoorpanakha"
+ ],
+ "Maricha": [
+  "Mareecha",
+  "Marich"
+ ],
+ "Valmiki": [],
+ "Shabari": [
+  "Sabari"
+ ],
+ "Trijata": [],
+ "Varuna": [
+  "Varun"
+ ],
+ "Bhudevi": [
+  "Bhoomi Devi",
+  "Bhumi Devi",
+  "Bhoomidevi",
+  "Prithvi"
+ ],
+ "Arjuna": [
+  "Arjun",
+  "Partha",
+  "Dhananjaya",
+  "Savyasachi",
+  "Kiriti"
+ ],
+ "Yudhishthira": [
+  "Yudhisthira",
+  "Yudhishtira",
+  "Yudhishthir",
+  "Yudhister",
+  "Yudhistir",
+  "Dharmaraja",
+  "Dharmaraj",
+  "Ajatashatru"
+ ],
+ "Bhima": [
+  "Bheem",
+  "Bhim",
+  "Bhimasena",
+  "Bhimsen",
+  "Vrikodara"
+ ],
+ "Nakula": [
+  "Nakul"
+ ],
+ "Sahadeva": [
+  "Sahadev"
+ ],
+ "Draupadi": [
+  "Drupadi",
+  "Draupathi",
+  "Panchali",
+  "Sairandhri",
+  "Sairandri",
+  "Yajnaseni"
+ ],
+ "Karna": [
+  "Radheya",
+  "Angaraja",
+  "Vasusena",
+  "Karn"
+ ],
+ "Bhishma": [
+  "Bheeshma",
+  "Bhisma",
+  "Bhishm",
+  "Devavrata",
+  "Gangaputra"
+ ],
+ "Duryodhana": [
+  "Duryodhan",
+  "Suyodhana"
+ ],
+ "Dushasana": [
+  "Dushasan",
+  "Duhshasana",
+  "Dussasana",
+  "Dushshasana"
+ ],
+ "Kunti": [
+  "Kunthi",
+  "Pritha"
+ ],
+ "Gandhari": [],
+ "Dhritarashtra": [
+  "Dhritrashtra",
+  "Dhritarashtr",
+  "Dhritarastra"
+ ],
+ "Drona": [
+  "Dronacharya"
+ ],
+ "Abhimanyu": [],
+ "Ghatotkacha": [
+  "Ghatotkach"
+ ],
+ "Shikhandi": [
+  "Shikhandini",
+  "Sikhandi"
+ ],
+ "Ashwatthama": [
+  "Ashwathama",
+  "Aswatthama"
+ ],
+ "Shakuni": [
+  "Sakuni"
+ ],
+ "Vidura": [
+  "Vidur"
+ ],
+ "Pandu": [],
+ "Drupada": [
+  "Drupad"
+ ],
+ "Kripa": [
+  "Kripacharya"
+ ],
+ "Subhadra": [],
+ "Uttara": [],
+ "Virata": [
+  "Viraat",
+  "Virat"
+ ],
+ "Keechaka": [
+  "Kichaka",
+  "Keechak",
+  "Kichak"
+ ],
+ "Sudeshna": [],
+ "Shantanu": [
+  "Santanu"
+ ],
+ "Satyavati": [
+  "Matsyagandha",
+  "Satyawati"
+ ],
+ "Ganga": [
+  "Ganga Devi",
+  "Gangadevi"
+ ],
+ "Shakuntala": [
+  "Sakuntala",
+  "Shakunthala",
+  "Sakunthala",
+  "Shakuntla"
+ ],
+ "Dushyanta": [
+  "Dushyant",
+  "Dushyanth",
+  "Dushmanta"
+ ],
+ "Menaka": [],
+ "Damayanti": [
+  "Damayanthi",
+  "Damyanti"
+ ],
+ "Nala": [
+  "Nal",
+  "Nala Raja"
+ ],
+ "Hamsa": [],
+ "Savitri": [
+  "Savithri"
+ ],
+ "Satyavan": [
+  "Satyavaan"
+ ],
+ "Yama": [
+  "Yamaraja",
+  "Yamraj",
+  "Yamadharma"
+ ],
+ "Tilottama": [],
+ "Krishna": [
+  "Krishn",
+  "Krsna",
+  "Kannan",
+  "Kanha",
+  "Kanhaiya",
+  "Govinda",
+  "Gopala",
+  "Keshava",
+  "Madhava",
+  "Murari",
+  "Muralidhara",
+  "Murlidhar",
+  "Giridhari",
+  "Shyam",
+  "Mukunda",
+  "Vasudeva Krishna"
+ ],
+ "Radha": [
+  "Radhe",
+  "Radhika",
+  "Radharani"
+ ],
+ "Yashoda": [
+  "Yasoda",
+  "Jashoda"
+ ],
+ "Devaki": [],
+ "Vasudeva": [
+  "Vasudev"
+ ],
+ "Balarama": [
+  "Balaram",
+  "Baladeva",
+  "Balabhadra"
+ ],
+ "Kamsa": [
+  "Kansa"
+ ],
+ "Kaliya": [
+  "Kaliya Naga"
+ ],
+ "Rukmini": [],
+ "Satyabhama": [],
+ "Sudama": [],
+ "Shiva": [
+  "Siva",
+  "Shiv",
+  "Mahadeva",
+  "Mahadev",
+  "Shankar",
+  "Shankara",
+  "Nataraja",
+  "Rudra",
+  "Bholenath",
+  "Neelakantha",
+  "Harihara"
+ ],
+ "Parvati": [
+  "Parvathi",
+  "Uma",
+  "Gauri",
+  "Girija"
+ ],
+ "Ganesha": [
+  "Ganesh",
+  "Ganapati",
+  "Ganapathi",
+  "Ganapathy",
+  "Vinayaka",
+  "Vighneshwara",
+  "Gajanana",
+  "Pillaiyar",
+  "Ekadanta"
+ ],
+ "Kartikeya": [
+  "Karthikeya",
+  "Murugan",
+  "Muruga",
+  "Skanda",
+  "Subramanya",
+  "Subrahmanya",
+  "Subramanian",
+  "Shanmukha",
+  "Shanmukha Subramanya",
+  "Shanmukha Subrahmanya",
+  "Kumaraswamy"
+ ],
+ "Valli": [],
+ "Devasena": [],
+ "Vishnu": [
+  "Vishnoo",
+  "Narayana",
+  "Narayan",
+  "Hari",
+  "Sheshashayi",
+  "Padmanabha"
+ ],
+ "Lakshmi": [
+  "Laxmi",
+  "Lakshmi Devi",
+  "Mahalakshmi",
+  "Gajalakshmi"
+ ],
+ "Sridevi": [
+  "Shridevi"
+ ],
+ "Saraswati": [
+  "Sarasvati",
+  "Saraswathi",
+  "Sharada"
+ ],
+ "Brahma": [
+  "Brahmadeva"
+ ],
+ "Indra": [
+  "Devendra",
+  "Indradev",
+  "Sakra"
+ ],
+ "Kali": [
+  "Kaali",
+  "Mahakali"
+ ],
+ "Durga": [
+  "Bhavani",
+  "Mahishasuramardini",
+  "Ashtabhuja",
+  "Ashtabhujadevi"
+ ],
+ "Ambika": [
+  "Amba"
+ ],
+ "Mahishasura": [
+  "Mahishasur"
+ ],
+ "Narasimha": [
+  "Narasingha",
+  "Narsimha",
+  "Nrisimha",
+  "Narasimham"
+ ],
+ "Hiranyakashipu": [
+  "Hiranyakashyap",
+  "Hiranyakasipu"
+ ],
+ "Prahlada": [
+  "Prahlad"
+ ],
+ "Vamana": [
+  "Vaman",
+  "Trivikrama"
+ ],
+ "Mahabali": [
+  "Bali",
+  "Maveli",
+  "Mahabali Chakravarthy"
+ ],
+ "Kurma": [
+  "Kurma avatar"
+ ],
+ "Matsya": [],
+ "Varaha": [],
+ "Parashurama": [
+  "Parshuram",
+  "Parasurama"
+ ],
+ "Kalki": [],
+ "Adisesha": [
+  "Adishesha",
+  "Shesha",
+  "Sesha",
+  "Sheshanaga",
+  "Ananta"
+ ],
+ "Garuda": [],
+ "Nandi": [],
+ "Riddhi": [],
+ "Siddhi": [],
+ "Mohini": [],
+ "Rukmangada": [],
+ "Narada": [
+  "Narad",
+  "Narada Muni"
+ ],
+ "Markandeya": [],
+ "Dattatreya": [
+  "Datta"
+ ],
+ "Surya": [
+  "Suryadev"
+ ],
+ "Agni": [],
+ "Kamadeva": [
+  "Kama",
+  "Manmatha"
+ ],
+ "Rati": [],
+ "Urvashi": [
+  "Urvasi"
+ ],
+ "Pururavas": [
+  "Pururava"
+ ],
+ "Usha": [
+  "Ushas"
+ ],
+ "Aniruddha": [],
+ "Rambha": [],
+ "Tara Devi": [
+  "Tara",
+  "Taradevi"
+ ],
+ "Gopichandra": [
+  "Gopichand"
+ ],
+ "Adi Shankaracharya": [
+  "Shankaracharya",
+  "Sankaracharya",
+  "Adi Shankara"
+ ],
+ "Kadambari": [],
+ "Malati": [],
+ "Indira": [],
+ "Judith": [],
+ "Varini": [],
+ "Vasantika": [],
+ "Ayilyam Thirunal Rama Varma": [
+  "Ayilyam Thirunal"
+ ],
+ "Moolam Thirunal Rama Varma": [
+  "Moolam Thirunal"
+ ],
+ "Raja Raja Varma": [],
+ "Bharani Thirunal Rani Parvathi Bayi": [
+  "Rani Parvathi Bayi",
+  "Parvathi Bayi"
+ ],
+ "Rani Bharani Thirunal Lakshmi Bayi": [
+  "Lakshmi Bayi"
+ ],
+ "Senior Rani Lakshmi Bayi": [],
+ "Kerala Varma Valiya Koil Tampuran": [
+  "Kerala Varma",
+  "Valiya Koil Thampuran"
+ ],
+ "Martanda Varma": [
+  "Marthanda Varma"
+ ],
+ "Mahaprabha Thampuratti of Mavelikkara": [
+  "Mahaprabha Thampuratti"
+ ],
+ "Krishnaraja Wadiyar IV": [
+  "Krishnaraja Wadiyar",
+  "Krishnaraja Wodeyar"
+ ],
+ "Jayalakshmanni": [],
+ "Krishnarajammanni": [],
+ "Yuvaraj Kanterava Narasimharaja Wadiyar": [
+  "Kanterava Narasimharaja Wadiyar"
+ ],
+ "Maharana Fateh Singh of Mewar": [
+  "Fateh Singh"
+ ],
+ "Mir Mehboob Ali Khan, Asaf Jah VI": [
+  "Mir Mehboob Ali Khan",
+  "Mahbub Ali Khan",
+  "Asaf Jah VI"
+ ],
+ "Justice T. Muthuswamy Iyer": [
+  "Muthuswamy Iyer"
+ ],
+ "Rai Pannalal Mehta": [
+  "Pannalal Mehta"
+ ],
+ "Seth Lachman Das": [
+  "Lachman Das"
+ ],
+ "Shungrasoobyer Avergal": [
+  "Shungrasoobyer"
+ ],
+ "Princess Tarabai": [
+  "Tarabai"
+ ],
+ "Shivaji Maharaj": [
+  "Shivaji",
+  "Chhatrapati Shivaji"
+ ],
+ "Kurukshetra": [
+  "Kurushetra",
+  "Kurukshetr"
+ ],
+ "Hastinapura": [
+  "Hastinapur"
+ ],
+ "Indraprastha": [],
+ "Ayodhya": [
+  "Ayodhyā",
+  "Ayodhia"
+ ],
+ "Lanka": [
+  "Lankapuri"
+ ],
+ "Mithila": [],
+ "Kishkindha": [
+  "Kishkinda"
+ ],
+ "Panchavati": [
+  "Panchvati"
+ ],
+ "Ashoka Vatika": [
+  "Ashok Vatika",
+  "Ashokavana",
+  "Ashoka Vana"
+ ],
+ "Dandakaranya": [
+  "Dandaka",
+  "Dandaka forest"
+ ],
+ "Chitrakoot": [
+  "Chitrakuta"
+ ],
+ "Nandigrama": [
+  "Nandigram"
+ ],
+ "Dwarka": [
+  "Dwaraka",
+  "Dvaraka"
+ ],
+ "Mathura": [],
+ "Vrindavan": [
+  "Vrindavana",
+  "Brindavan",
+  "Brindaban"
+ ],
+ "Gokul": [
+  "Gokula"
+ ],
+ "Kailash": [
+  "Kailasa",
+  "Mount Kailash"
+ ],
+ "Vaikuntha": [
+  "Vaikuntham"
+ ],
+ "Yamuna": [
+  "Jamuna"
+ ],
+ "Sarayu": [],
+ "Mahabharata": [
+  "Mahabharat",
+  "Mahābhārata"
+ ],
+ "Ramayana": [
+  "Ramayan",
+  "Rāmāyaṇa"
+ ],
+ "Bhagavata Purana": [
+  "Bhagavatam",
+  "Srimad Bhagavatam"
+ ],
+ "Bhagavad Gita": [
+  "Gita",
+  "Geeta"
+ ],
+ "Purana": [
+  "Puranas"
+ ],
+ "Pandavas": [
+  "Pandava"
+ ],
+ "Kauravas": [
+  "Kaurava"
+ ],
+ "Raghuvamsha": [
+  "Raghu dynasty"
+ ],
+ "Raja Ravi Varma": [
+  "Ravi Varma",
+  "R. Ravi Varma"
+ ]
+}

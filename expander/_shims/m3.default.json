@@ -1,0 +1,34 @@
+{
+  "_shim_note": "TEMPORARY placeholder for config/m3.json (owned by the team, PR + contracts/CHANGELOG.md). Used only while config/m3.json does not exist. Proposal for the Day 1 contract meeting; removed at S2.",
+  "base_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "trigger": "rrvarma style",
+  "style_tail": "oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry",
+  "_style_tail_note": "Needs team confirmation on Day 1. The M2 winner (D_lr2e-4 step 800) was trained on train_v1, whose captions have NO fixed tail. This is M2's frozen v2 suffix (DATA_FROZEN.json style_suffix_in_v2), the tail used in all M2 test-set numbers for the winner. 20 CLIP tokens (excl. start/end).",
+  "negative": "lowres, blurry, deformed, extra limbs, bad anatomy, text, watermark",
+  "_negative_note": "M2 generate.py NEG, used for every M2 measurement (the handoff's list is only an example).",
+  "sampler": "dpmpp_2m",
+  "steps": 30,
+  "cfg": 7.0,
+  "size": 512,
+  "max_prompt_tokens": 70,
+  "dev_seeds": [1, 2],
+  "heldout_seeds": [1, 2, 3, 4],
+  "default_model": "rrv_v1",
+  "models": {
+    "rrv_v1": {
+      "lora_path": "/content/drive/MyDrive/m2/hub/rrvarma_lora_v1/pytorch_lora_weights.safetensors",
+      "scale": 0.8,
+      "sha256": "067ee19f2281880c6ed7dd57371c290a3d4a5867c427883b290f140d431c45c3",
+      "source": "M2 winner D_lr2e-4 step 800"
+    }
+  },
+  "llm": {
+    "backend": "hf_local",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "temperature": 0.0,
+    "prompt_version": "v1",
+    "model_large": "Qwen/Qwen2.5-7B-Instruct",
+    "model_large_revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+  }
+}

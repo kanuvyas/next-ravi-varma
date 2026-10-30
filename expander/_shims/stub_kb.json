@@ -1,0 +1,86 @@
+{
+  "version": "stub0",
+  "_shim_note": "TEMPORARY stand-in for C's kb/stub_kb.json (C's KB schema, Overview v2 / C guide Day 1.3). Visuals reuse train_v1 caption wording; source.ref = real training file stems. Removed at S2.",
+  "characters": {
+    "rama": {
+      "canonical": "Rama",
+      "aliases": ["Ram", "Sri Rama", "Ramachandra", "Raghava"],
+      "epic": "Ramayana",
+      "visual": "blue-skinned crowned prince, topknot, yellow silk dhoti, long bow and arrows",
+      "vocab_status": "untested",
+      "coverage_n": 4,
+      "coverage": "medium",
+      "source": {"type": "images", "ref": ["varma_rama_a36", "varma_rama_pattabhishekham_c07", "varma_ramapanchayan_a13", "varma_rama_sita_lakshmana_sarayu_d54"]}
+    },
+    "sita": {
+      "canonical": "Sita",
+      "aliases": ["Seeta", "Seetha", "Janaki", "Vaidehi"],
+      "epic": "Ramayana",
+      "visual": "young woman in a red saree with a gold border, layered pearl necklaces, gold bangles",
+      "vocab_status": "untested",
+      "coverage_n": 4,
+      "coverage": "medium",
+      "source": {"type": "images", "ref": ["varma_sita_golden_deer_b30", "varma_sita_abandoned_lamenting_d51", "varma_sita_a14", "varma_ramapanchayan_a13"]}
+    },
+    "hanuman": {
+      "canonical": "Hanuman",
+      "aliases": ["Maruti", "Anjaneya", "Bajrangbali"],
+      "epic": "Ramayana",
+      "visual": "monkey-faced figure, white beard, gold crown, red garment, mace over shoulder",
+      "vocab_status": "untested",
+      "coverage_n": 3,
+      "coverage": "medium",
+      "source": {"type": "images", "ref": ["varma_maruti_hanuman_b32", "varma_rama_pattabhishekham_c07", "varma_ramapanchayan_a13"]}
+    },
+    "krishna": {
+      "canonical": "Krishna",
+      "aliases": ["Krishn", "Govinda", "Gopala", "Kanha"],
+      "epic": "Mahabharata",
+      "visual": "blue-skinned youth, peacock feather in crown, yellow silk dhoti, bamboo flute",
+      "vocab_status": "untested",
+      "coverage_n": 6,
+      "coverage": "high",
+      "source": {"type": "images", "ref": ["varma_krishna_gopis_a38", "varma_krishna_kaliya_c05", "varma_krishna_phugdi_d35", "varma_radha_krishna_banyan_d32", "varma_yashoda_krishna_b17", "varma_krishna_envoy_a46"]}
+    },
+    "arjuna": {
+      "canonical": "Arjuna",
+      "aliases": ["Arjun", "Partha", "Dhananjaya"],
+      "epic": "Mahabharata",
+      "visual": "young warrior in warrior attire, gold crown, long bow, quiver of arrows",
+      "vocab_status": "untested",
+      "coverage_n": 1,
+      "coverage": "low",
+      "source": {"type": "images", "ref": ["varma_arjuna_subhadra_b03"]}
+    },
+    "draupadi": {
+      "canonical": "Draupadi",
+      "aliases": ["Panchali", "Sairandhri", "Drupadi"],
+      "epic": "Mahabharata",
+      "visual": "woman in a dark blue saree, gold jewelry, long black hair",
+      "vocab_status": "untested",
+      "coverage_n": 5,
+      "coverage": "high",
+      "source": {"type": "images", "ref": ["varma_draupadi_humiliated_a39", "varma_draupadi_pandavas_b07", "varma_sairandhri_b10", "varma_keechaka_sairandhri_b05", "varma_draupadi_sudeshna_c14"]}
+    }
+  },
+  "settings": {
+    "kurukshetra": {
+      "aliases": ["battlefield", "battlefield of kurukshetra", "battle"],
+      "visual": "open battlefield, chariots and banners, dusty sky"
+    },
+    "palace": {
+      "aliases": ["palace", "court", "royal hall", "throne room", "sabha"],
+      "visual": "pillared royal hall, carved stone columns"
+    },
+    "forest": {
+      "aliases": ["forest", "hermitage", "ashram", "jungle"],
+      "visual": "forest clearing, thatched hut, tall trees"
+    }
+  },
+  "moods": {
+    "grief": "dim dramatic lighting, shadowed faces",
+    "devotion": "soft warm glow, serene faces",
+    "anger": "harsh dramatic light, tense faces",
+    "joy": "bright warm daylight, smiling faces"
+  }
+}
