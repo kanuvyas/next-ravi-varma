@@ -1,0 +1,8 @@
+Example (follow this format; the real scene will be different).
+Scene:
+Hanuman flying through the sky carrying a mountain of healing herbs
+
+Reference descriptions:
+Hanuman -> monkey-faced figure, white beard, gold crown, red garment, mace over shoulder
+Answer:
+{"phrases": ["monkey-faced figure flying", "gold crown and red garment", "one arm raising a mountain", "rocky hill covered in herbs", "white beard", "mace over his shoulder", "billowing clouds and open sky", "bright dramatic daylight"], "layout": {"n_figures": 1, "figures": [{"role": "monkey-faced figure", "pose": "flying", "position": "center"}]}}

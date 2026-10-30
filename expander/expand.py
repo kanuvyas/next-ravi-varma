@@ -32,7 +32,7 @@ from expander.assemble import CountFn, assemble, clean_phrases
 from expander.cache import Cache, cache_key
 from expander.llm_base import LLMClient, load_system_prompt
 from expander.names import NameMatcher, default_matcher, scrub_phrases
-from expander.template import TEMPLATE_PROMPT_VERSION, template_prompt
+from expander.template import TEMPLATE_PROMPT_VERSION, TEMPLATE_VERSION, template_prompt
 
 MODES = ("raw", "template", "llm_kb", "llm_nokb", "llm_kb_layout")
 LLM_MODES = frozenset({"llm_kb", "llm_nokb", "llm_kb_layout"})
@@ -361,6 +361,7 @@ def expand(text: str, scene: dict | None = None, mode: str = "llm_kb", *, llm: L
         "llm_calls": 0,
         "error": None,
         "note": None,
+        "template_version": None,  # set when template phrases are used (template mode, fallback)
     }
 
     if mode == "raw":
@@ -372,7 +373,7 @@ def expand(text: str, scene: dict | None = None, mode: str = "llm_kb", *, llm: L
         rec.update(positive=tpl["positive"], phrases_kept=tpl["phrases_kept"],
                    phrases_dropped=tpl["phrases_dropped"], names_leaked=tpl["names_leaked"],
                    phrases_scrubbed=tpl["phrases_scrubbed"], source="template", llm_model="none",
-                   prompt_version=TEMPLATE_PROMPT_VERSION)
+                   prompt_version=TEMPLATE_PROMPT_VERSION, template_version=TEMPLATE_VERSION)
     else:
         client = _resolve_llm(llm, cfg)
         pv = prompt_version or cfg["llm"]["prompt_version"]
@@ -399,7 +400,8 @@ def expand(text: str, scene: dict | None = None, mode: str = "llm_kb", *, llm: L
             tpl = template_prompt(scene, cfg, load_kb(kb_path), count_fn=count, matcher=matcher)
             rec.update(positive=tpl["positive"], phrases_kept=tpl["phrases_kept"],
                        phrases_dropped=tpl["phrases_dropped"], phrases_scrubbed=tpl["phrases_scrubbed"],
-                       names_leaked=list(dict.fromkeys([*llm_leaked, *tpl["names_leaked"]])), source="fallback")
+                       names_leaked=list(dict.fromkeys([*llm_leaked, *tpl["names_leaked"]])), source="fallback",
+                       template_version=TEMPLATE_VERSION)
 
     rec["token_count"] = count(rec["positive"])
     rec["trigger_first"] = rec["positive"].startswith(trigger)

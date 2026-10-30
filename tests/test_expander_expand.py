@@ -185,7 +185,8 @@ def test_cache_makes_second_run_free(tmp_path):
 
 def test_template_raw_and_overrides():
     tpl, _ = run("template", replies=[], split="dev", condition="c2_custom")
-    assert tpl["source"] == "template" and tpl["llm_model"] == "none" and tpl["prompt_version"] == "tpl1"
+    assert tpl["source"] == "template" and tpl["llm_model"] == "none" and tpl["prompt_version"] == "tpl2"
+    assert tpl["template_version"] == "tpl2"
     assert tpl["condition"] == "c2_custom" and tpl["split"] == "dev"
     assert tpl["names_leaked"] == [] and "pillared royal hall" in tpl["phrases_kept"]
     raw, _ = run("raw", replies=[], scene=None)

@@ -17,16 +17,27 @@ The LLM writes **only the scene phrases**, ordered from most to least important.
 | Mode (`expand`) | Condition ID | What the model sees | `source` | `prompt_version` | Run by |
 |---|---|---|---|---|---|
 | `raw` | `c1_lora_raw` | `trigger, <raw text>, style_tail`: no fitting, no scrub (parity with A's c1 string; names recorded only) | `template` (+ `note: "raw"`) | `raw` | A |
-| `template` | `c2_template` | SceneSpec → character `visual`s, then `action`, `setting.visual` and the mood phrase; no LLM | `template` | `tpl1` | D |
+| `template` | `c2_template` | SceneSpec → each figure's first `visual` phrase, the `action` clauses, `setting.visual`, the mood phrase, then the remaining visual phrases round-robin (§2.1); no LLM | `template` | `tpl2` | D |
 | `llm_kb` | `c3_llm_kb` | LLM phrases, user message **with** the `Reference descriptions` block | `llm` / `fallback` | `v1` | D |
 | `llm_nokb` | `c4_llm_nokb` | LLM phrases, user message **without** that block (the only c3/c4 difference) | `llm` / `fallback` | `v1` | D |
 | `llm_kb_layout` | `c5_llm_kb_layout` (optional) | c3 plus a leading layout phrase from the reply's `layout` JSON | `llm` / `fallback` | `v1_layout` | D |
 | `llm_kb` + `--kb kb/kb_llm.json` | `c6_llm_kbllm` | c3 with LLM-written KB descriptions | `llm` / `fallback` | `v1` | C |
-| `llm_kb` + `--llm_model Qwen/Qwen2.5-7B-Instruct` | `c3_7b` (optional) | c3 with the larger LLM | `llm` / `fallback` | `v1` | D |
+| `llm_kb` + `--llm large` (= `llm.model_large`; or `--llm_model <id>`) | `c3_7b` (optional) | c3 with the larger LLM | `llm` / `fallback` | `v1` | D |
 | `llm_kb` + `--scene_negatives` | `c3_neg` (optional) | c3 positive; negative = config negative + 3-6 LLM scene negatives | `llm` / `fallback` | `v1_neg` | D |
 | `llm_kb` + `--prompt_version v2` | `c3_v2` (optional; **proposed ID**) | c3 with prompt v2 (SHAP value-per-token ordering) | `llm` / `fallback` | `v2` | D |
 
 `batch_expand.py` sets `condition` from `--condition`, otherwise from the `--out` file name (`<condition>_<split>.json`), otherwise from the mode. Hypotheses for these comparisons: `experiments/HYPOTHESES.md`, section D.
+
+### 2.1 Template (c2 and the fallback), version `tpl2`
+
+Deterministic phrase priority, most important first. Token fitting (§5) drops phrases from the end of this list:
+1. each character's **first** visual phrase (its KB `visual`, split on commas), in SceneSpec order;
+2. the `action`, split into clauses on `, ; : . ! ?` (each clause is one phrase, so a long action loses only the clauses that do not fit, and names are scrubbed clause by clause);
+3. the `setting.visual` phrases;
+4. the mood lighting phrase (`mood_visual` > KB `moods` > a built-in fallback map);
+5. the remaining visual phrases, **round-robin** across characters (the 2nd phrase of each, then the 3rd, ...).
+
+`tpl1` (before 2026-10-30) put all of character 1's phrases before character 2's and before the action. With the real CLIP counter, multi-figure scenes then overflowed the 70-token budget and **lost the action** (fixtures f02/f03), which made c2 a strawman. Records carry `template_version: "tpl2"` (also on `source: "fallback"` records) and template-mode records carry `prompt_version: "tpl2"`, so older outputs remain distinguishable.
 
 ## 3. System prompt v1 (verbatim; `expander/prompts/system_v1.txt`)
 
@@ -44,13 +55,13 @@ Rules:
 - Use concrete visual words (e.g. "kneeling", "gilded armour", "pillared hall").
 ```
 
-**User message:** the raw text, plus, in `llm_kb` mode only, `Reference descriptions:` followed by one `<mention> -> <visual>` line per character from the SceneSpec. Variants (`v1_layout`, `v1_neg`, `v2`) are separate files with their own `prompt_version`; v1 is never edited. If JSON failures are frequent, a worked example from a **dev** scene (never held-out) may be added, but only as a new version. `TODO(results)`: the variant texts and the change log of v2.
+**User message:** the raw text, plus, in `llm_kb` mode only, `Reference descriptions:` followed by one `<mention> -> <visual>` line per character from the SceneSpec. Variants (`v1_layout`, `v1_neg`, `v2`) are separate files with their own `prompt_version`; v1 is never edited (a test pins its sha256 and checks `prompts/system_v1.txt` against the built-in text). **`v1ex`** = v1 + one worked example from dev scene s25 (`prompts/system_v1_example.txt`; `v1ex_layout` uses `system_v1_layout_example.txt`), for small models that answer in prose: `--prompt_version v1ex`. On CPU, Qwen2.5-0.5B-Instruct answered v1 with an invalid `{"phrases": "<the input sentence>"}` and v1ex with 9 valid phrases (a plumbing check only, not a result). With v1ex, s25's own expansion is not independent of the prompt. `TODO(results)`: the variant texts and the change log of v2.
 
 ## 4. Fallback chain (the pipeline never crashes because of the LLM)
 
 1. LLM call (cached) → parse JSON `{"phrases": [...]}` (tolerant: strips code fences, takes the first `{…}`).
 2. Parse failure → **one** retry with "Return ONLY valid JSON" appended (cached; `json_retry: true`).
-3. Second failure **or any exception** (load error, OOM, timeout) → **template mode** on the same SceneSpec, with `source: "fallback"` and `error` set.
+3. Second failure **or any exception** (load error, OOM, timeout) → **template mode** on the same SceneSpec, with `source: "fallback"` and `error` set. In `batch_expand.py`, a model that **fails to load** stops the batch instead (records written so far are kept), so a file of fallbacks is never labelled c3/c4; re-running resumes.
 4. Name leak → **one** re-ask: "remove proper names; describe by clothing, pose and setting" (cached; `name_repair: true`). Names still present → drop the offending phrases (`phrases_scrubbed`).
 5. `assemble` (§5), then a last re-scan of the final `positive`, excluding trigger and tail. Any hit drops that phrase and the prompt is re-assembled.
 
@@ -112,13 +123,17 @@ Other open items: scene ID block `s25`-`s32` for D's dev scenes (pending B's con
 
 ## 13. Commands
 
+Step-by-step Colab cells, smoke test, hand-off to generation and troubleshooting: `expander/RUNBOOK_COLAB.md`. Library pins: `expander/requirements_llm.txt`.
+
 Dev (D, `llm` session):
 ```
 python expander/batch_expand.py --scenes eval/test_scenes_dev.json --mode template --out outputs/expansions/c2_template_dev.json
 python expander/batch_expand.py --scenes eval/test_scenes_dev.json --mode llm_kb   --out outputs/expansions/c3_llm_kb_dev.json
 python expander/batch_expand.py --scenes eval/test_scenes_dev.json --mode llm_nokb --out outputs/expansions/c4_llm_nokb_dev.json
-python expander/check_expansions.py outputs/expansions/c2_template_dev.json outputs/expansions/c3_llm_kb_dev.json outputs/expansions/c4_llm_nokb_dev.json
+python expander/check_expansions.py outputs/expansions/c2_template_dev.json outputs/expansions/c3_llm_kb_dev.json outputs/expansions/c4_llm_nokb_dev.json --strict
 ```
+
+`batch_expand.py` flags: `--scenes --mode --out [--kb] [--cache] [--condition] [--split] [--llm default|large|fake] [--llm_model] [--llm_revision] [--no_4bit] [--prompt_version] [--limit N] [--config] [--overwrite] [--counter auto|clip|approx]`. It resumes an existing `--out` and loads the LLM only on a cache miss. `check_expansions.py FILE... [--max_tokens N] [--json OUT] [--strict] [--names PATH] [--no_recount] [--config]`.
 
 Held-out (B, Day 5, frozen S3 sha, private cache): `TODO(results)`: confirm the frozen sha, the final `prompt_version` and the exact flags at S3. Draft:
 ```

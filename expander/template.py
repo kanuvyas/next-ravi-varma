@@ -1,10 +1,16 @@
 """Template mode (c2, and the offline fallback): deterministic phrases from a SceneSpec. No LLM.
 
-Phrase priority (most important first):
-1. each character's ``visual``, split on commas into short phrases (characters in SceneSpec order);
-2. ``action``;
+Phrase priority (most important first; template version ``tpl2``):
+1. each character's FIRST visual phrase (``visual`` split on commas), characters in SceneSpec order;
+2. ``action``, split into clauses on ``, ; : . ! ?`` (each clause is one phrase, in order, so a long action
+   loses only the clauses that do not fit, and the name scrub works on short clauses);
 3. ``setting.visual`` (split on commas);
-4. the mood's lighting phrase: ``scene["mood_visual"]`` > the KB ``moods`` entry > ``FALLBACK_MOOD_LIGHTING``.
+4. the mood's lighting phrase: ``scene["mood_visual"]`` > the KB ``moods`` entry > ``FALLBACK_MOOD_LIGHTING``;
+5. the remaining visual phrases, round-robin across characters (2nd phrase of each, then 3rd, ...).
+
+``tpl1`` put ALL of character 1's phrases before character 2's and before the action, so multi-figure
+scenes overflowed the 70-token budget and dropped the action (fixtures f02/f03 with the real CLIP
+counter). ``tpl2`` keeps one identifying phrase per figure, then what they do, where and how lit.
 
 Names are removed from every phrase (``names.strip_names``) before token fitting, because ``action``
 is the user's text minus *matched* names and can still contain unmatched ones.
@@ -17,7 +23,8 @@ import re
 from expander.assemble import CountFn, assemble, clean_phrases
 from expander.names import NameMatcher, default_matcher, strip_names
 
-TEMPLATE_PROMPT_VERSION = "tpl1"
+TEMPLATE_PROMPT_VERSION = "tpl2"
+TEMPLATE_VERSION = TEMPLATE_PROMPT_VERSION  # recorded as the extra field ``template_version``
 
 FALLBACK_MOOD_LIGHTING: dict[str, str] = {
     "grief": "dim somber light",
@@ -45,6 +52,13 @@ def split_visual(visual: str | None) -> list[str]:
     return [p.strip() for p in re.split(r"[,;]", visual) if p.strip()]
 
 
+def split_action(action: str | None) -> list[str]:
+    """``"seated on a throne, kneeling at their feet"`` -> ``["seated on a throne", "kneeling at their feet"]``."""
+    if not action or not isinstance(action, str):
+        return []
+    return [p.strip() for p in re.split(r"[,;:.!?]", action) if p.strip()]
+
+
 def mood_phrase(scene: dict, kb: dict | None = None) -> str:
     """Lighting phrase for the scene's mood ("" if there is no usable mood)."""
     if isinstance(scene.get("mood_visual"), str) and scene["mood_visual"].strip():
@@ -66,19 +80,18 @@ def template_phrases(scene: dict, kb: dict | None = None) -> list[str]:
 
     ``kb`` is only used for the mood lookup; ``None`` means the built-in fallback map only.
     """
-    phrases: list[str] = []
-    for ch in scene.get("characters") or []:
-        if isinstance(ch, dict):
-            phrases += split_visual(ch.get("visual"))
-    action = scene.get("action")
-    if isinstance(action, str) and action.strip():
-        phrases.append(action.strip())
+    visuals = [split_visual(ch.get("visual")) for ch in scene.get("characters") or [] if isinstance(ch, dict)]
+    visuals = [v for v in visuals if v]
+    phrases: list[str] = [v[0] for v in visuals]
+    phrases += split_action(scene.get("action"))
     setting = scene.get("setting")
     if isinstance(setting, dict):
         phrases += split_visual(setting.get("visual"))
     mood = mood_phrase(scene, kb)
     if mood:
         phrases += split_visual(mood)
+    for i in range(1, max((len(v) for v in visuals), default=0)):  # round-robin over the rest
+        phrases += [v[i] for v in visuals if i < len(v)]
     return phrases
 
 

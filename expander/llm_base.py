@@ -7,6 +7,7 @@ records it as ``llm_model`` and uses it in the cache key (else ``config["llm"]["
 
 from __future__ import annotations
 
+import re
 from collections.abc import Callable, Sequence
 from pathlib import Path
 from typing import Protocol, runtime_checkable
@@ -84,14 +85,27 @@ class FakeLLM:
         self.closed = True
 
 
+# "v1ex" = v1 + the worked example in system_v1_example.txt; "v1ex_layout" = v1_layout + system_v1_layout_example.txt.
+_EXAMPLE_VERSION = re.compile(r"^(?P<base>v\d+)ex(?P<layout>_layout)?$")
+
+
 def load_system_prompt(version: str = "v1", prompts_dir: str | Path | None = None) -> str:
     """``expander/prompts/system_<version>.txt`` if present, else the built-in text for ``version``.
 
+    ``<v>ex`` / ``<v>ex_layout`` (e.g. ``v1ex``) is the ``<v>`` / ``<v>_layout`` prompt followed by one
+    worked example from ``system_<v>[_layout]_example.txt`` (a dev scene, never held-out).
     Raises ``KeyError`` for an unknown version with no file.
     """
-    p = Path(prompts_dir or PROMPTS_DIR) / f"system_{version}.txt"
+    d = Path(prompts_dir or PROMPTS_DIR)
+    p = d / f"system_{version}.txt"
     if p.exists():
         return p.read_text(encoding="utf-8").strip()
     if version in BUILTIN_PROMPTS:
         return BUILTIN_PROMPTS[version]
+    m = _EXAMPLE_VERSION.match(version)
+    if m:
+        base = m["base"] + (m["layout"] or "")
+        example = d / f"system_{base}_example.txt"
+        if example.exists():
+            return load_system_prompt(base, d) + "\n\n" + example.read_text(encoding="utf-8").strip()
     raise KeyError(f"no system prompt for version {version!r} (looked for {p})")

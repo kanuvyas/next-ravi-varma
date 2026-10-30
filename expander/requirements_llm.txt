@@ -1,0 +1,21 @@
+# expander/requirements_llm.txt: the `llm` Colab session (owner D). Free T4: 4-bit NF4, fp16 compute (no bf16).
+# Install:  pip install -q -r expander/requirements_llm.txt     (A's `pipeline/setup_session.sh llm` should do this)
+#
+# torch is NOT pinned: use Colab's preinstalled CUDA build, as M2 did. bitsandbytes 0.50.2 needs torch>=2.4,<3.
+# transformers / accelerate / tokenizers / safetensors = M2's requirements_m2.txt pins (they ran on Colab in M2).
+# bitsandbytes 0.50.2 = newest on PyPI (checked 2026-10-30); its wheel ships CUDA 11.8-13.2 kernels; T4 = SM75 (supported).
+# Checked on CPU (2026-10-30, venv with exactly these pins + torch 2.15.0+cpu): Qwen/Qwen3-4B-Instruct-2507 and
+# Qwen/Qwen2.5-7B-Instruct chat templates render at the pinned revisions; `python -m expander.llm --smoke
+# --model Qwen/Qwen2.5-0.5B-Instruct --no_4bit` loads and generates. The 4-bit path is NOT yet run on a T4.
+#
+# TODO(D, first Colab run): after `python -m expander.llm --smoke` succeeds on the T4, re-freeze what actually ran:
+#   pip freeze | grep -iE '^(torch|transformers|accelerate|bitsandbytes|tokenizers|safetensors|huggingface.hub|jinja2)=='
+# then update the pins below (keep torch as a comment) and commit "[expander] re-freeze requirements_llm (T4 smoke)".
+transformers==5.17.0
+accelerate==1.15.0
+bitsandbytes==0.50.2
+tokenizers==0.23.2
+safetensors==0.8.0
+jinja2>=3.1          # apply_chat_template needs it (preinstalled on Colab)
+# sentencepiece: not needed (Qwen tokenizers are BPE, tokenizer.json).
+# huggingface_hub: transformers 5.17 needs >=1.5,<2.0; pip downgrades Colab's copy if it is newer.

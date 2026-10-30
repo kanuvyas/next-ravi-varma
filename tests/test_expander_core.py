@@ -139,9 +139,55 @@ def test_token_count_and_clean_phrases():
 
 def test_template_order_and_mood_from_kb():
     phrases = template_phrases(SCENE, KB)
-    assert phrases == ["bare-chested warrior", "golden breastplate", "young warrior", "long bow",
-                       "weeping over the fallen body of Arjun", "open battlefield", "chariots and banners",
-                       "dim dramatic lighting", "shadowed faces"]
+    assert phrases == ["bare-chested warrior", "young warrior",  # 1. first visual phrase of each figure
+                       "weeping over the fallen body of Arjun",  # 2. action
+                       "open battlefield", "chariots and banners",  # 3. setting
+                       "dim dramatic lighting", "shadowed faces",  # 4. mood lighting
+                       "golden breastplate", "long bow"]  # 5. the rest, round-robin
+
+
+THREE = {"id": "t3", "raw": "Rama and Sita seated on a throne, Hanuman kneeling at their feet", "epic": "Ramayana",
+         "characters": [{"mention": "Rama", "canonical": "Rama", "coverage": "medium",
+                         "visual": "blue-skinned crowned prince, topknot, yellow silk dhoti, long bow and arrows"},
+                        {"mention": "Sita", "canonical": "Sita", "coverage": "medium",
+                         "visual": "young woman in a red saree with a gold border, layered pearl necklaces, gold bangles"},
+                        {"mention": "Hanuman", "canonical": "Hanuman", "coverage": "medium",
+                         "visual": "monkey-faced figure, white beard, gold crown, red garment, mace over shoulder"}],
+         "setting": {"name": "palace", "visual": "pillared royal hall, carved stone columns"},
+         "action": "seated on a throne, kneeling at their feet with folded hands", "mood": "devotion",
+         "unknown_entities": [], "kb_version": "stub0"}
+
+
+def test_template_round_robin_order():
+    p = template_phrases(THREE, KB)
+    assert p[:3] == ["blue-skinned crowned prince", "young woman in a red saree with a gold border",
+                     "monkey-faced figure"]
+    assert p[3:5] == ["seated on a throne", "kneeling at their feet with folded hands"]  # action clauses
+    assert p[5:9] == ["pillared royal hall", "carved stone columns", "soft warm glow", "serene faces"]
+    assert p[9:12] == ["topknot", "layered pearl necklaces", "white beard"]  # round-robin, 2nd phrases
+    assert p[-1] == "mace over shoulder"
+
+
+@pytest.mark.parametrize("budget", [70, 80])
+def test_template_keeps_action_for_three_characters(budget):
+    """tpl1 dropped the action in multi-figure scenes; tpl2 keeps it and one phrase per figure."""
+    actions = ["seated on a throne", "kneeling at their feet with folded hands"]
+    tpl1_order = [x for ch in THREE["characters"] for x in ch["visual"].split(", ")] + template_phrases(THREE, KB)[3:9]
+    assert set(actions) <= set(assemble(TRIGGER, tpl1_order, TAIL, budget, count_fn=fake_count)[2])  # the old bug
+    cfg = {**CFG, "max_prompt_tokens": budget}
+    out = template_prompt(THREE, cfg, KB, count_fn=fake_count, matcher=SEED)
+    assert set(actions) <= set(out["phrases_kept"]), out
+    for ch in THREE["characters"]:
+        assert ch["visual"].split(",")[0] in out["phrases_kept"]
+    assert out["phrases_dropped"], "the budget should force drops of lower-priority phrases"
+    assert fake_count(out["positive"]) <= budget
+
+
+def test_split_action():
+    from expander.template import split_action
+    assert split_action("seated on a throne, kneeling; praying: here. now! why?") == [
+        "seated on a throne", "kneeling", "praying", "here", "now", "why"]
+    assert split_action("") == [] and split_action(None) == []
 
 
 def test_template_mood_sources():
