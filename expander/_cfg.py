@@ -49,8 +49,32 @@ def _read_json(path: Path) -> dict:
 
 
 def load_config(path: str | os.PathLike | None = None) -> dict:
-    """Return a fresh dict with the team config (callers may mutate it safely)."""
-    return _read_json(config_path(path))
+    """Return a fresh dict with the team config (callers may mutate it safely).
+
+    Keys the team config lacks (e.g. ``llm`` before D's config PR lands) are filled from the
+    shim and listed in ``_defaults_from_shim``; keys the team config has always win.
+    """
+    resolved = config_path(path)
+    cfg = _read_json(resolved)
+    shim = SHIM_DIR / "m3.default.json"
+    if resolved.resolve() == shim.resolve():
+        return cfg
+    defaults = _read_json(shim)
+    filled = []
+    for key, value in defaults.items():
+        if key.startswith("_") or key == "models":
+            continue
+        if key not in cfg:
+            cfg[key] = value
+            filled.append(key)
+        elif key == "llm" and isinstance(cfg[key], dict) and isinstance(value, dict):
+            for sub, v in value.items():
+                if sub not in cfg[key]:
+                    cfg[key][sub] = v
+                    filled.append(f"llm.{sub}")
+    if filled:
+        cfg["_defaults_from_shim"] = filled
+    return cfg
 
 
 def get_counter() -> Callable[[str], int]:

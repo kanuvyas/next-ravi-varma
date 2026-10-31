@@ -30,7 +30,7 @@ from expander.llm_base import (
 from expander.names import default_matcher
 
 ROOT = _cfg.repo_root()
-CFG = json.loads((_cfg.SHIM_DIR / "m3.default.json").read_text())
+CFG = _cfg.load_config()  # what batch_expand itself loads: team config, gaps filled from the shim
 # Pinned: changing system_v1.txt without a new prompt_version breaks the cache's meaning.
 SYSTEM_V1_SHA256 = "80219a5415fe89cd7804637f4046742b98cdf8e0821313a72ff6dbadd7a96586"
 

@@ -16,7 +16,7 @@ from expander.names import default_matcher
 ROOT = _cfg.repo_root()
 FIXTURES = ROOT / "expander" / "_shims" / "fixtures_scenes.json"
 DEV_D = ROOT / "expander" / "dev_scenes_D.json"
-CFG = json.loads((_cfg.SHIM_DIR / "m3.default.json").read_text())
+CFG = _cfg.load_config()  # what batch_expand itself loads: team config, gaps filled from the shim
 SCHEMA = json.loads((ROOT / "expander" / "schemas" / "expanded_prompt.schema.json").read_text())
 CONDITION = {"raw": "c1_lora_raw", "template": "c2_template", "llm_kb": "c3_llm_kb", "llm_nokb": "c4_llm_nokb",
              "llm_kb_layout": "c5_llm_kb_layout"}
@@ -183,7 +183,8 @@ def test_fake_runs_never_touch_the_shared_cache(tmp_path):
 
 def test_approx_counter():
     assert be.approx_n_tokens("rrvarma style") == 3
-    assert be.approx_n_tokens(CFG["style_tail"]) >= 20  # over-counts real CLIP (20)
+    m2_tail = "oil painting, classical Indian academic realism, soft skin rendering, richly detailed drapery and jewelry"
+    assert be.approx_n_tokens(m2_tail) >= 20  # over-counts real CLIP (20)
     assert be.approx_n_tokens("") == 0
     fn, name = be.resolve_counter("approx")
     assert fn is be.approx_n_tokens and name == "approx"
